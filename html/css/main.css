@@ -231,7 +231,7 @@ form .buttons .first { margin-left: 17ex; }
 }
 .skin-dev2 .hfeed .entry-quote .entry-content p {
     font-style: italic;
-    font-size: 100%;
+    font-size: 92%;
     margin: 0 0 1em 0;
 }
 .skin-dev2 .hfeed .entry-quote h3 {
@@ -249,6 +249,11 @@ form .buttons .first { margin-left: 17ex; }
 }
 .skin-dev2 .hfeed .entry-bookmark .entry-date {
     display: none;
+}
+.skin-dev2 .hfeed .entry-bookmark .entry-content p {
+    font-style: italic;
+    font-size: 92%;
+    margin: 0.5em 0 0.5em 0;
 }
 .skin-dev2 .hfeed .entry-code {
     background-image: url(../img/developpers-icons/Terminal.png);

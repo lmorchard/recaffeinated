@@ -32,6 +32,7 @@
         ^endif^ ^if(^equal(^get(ItemClass)^,entry-bookmark))^
             <h3 class="entry-title">
                 <a href="^get(URL)^" title="^title^" rel="bookmark">^title^</a>
+                <a href="^getFor(current,BaseUrl)^^path(parent)^#entry-^getFor(this,id)^" title="^title^" class="permalink permalink-small" rel="bookmark">#<abbr class="entry-date published" title="^created(this,=)^">^created(this,y M D)^ @ ^created(this,H:mmp)^</abbr></a>
             </h3>
             <div class="entry-content">^text^</div>
             <div class="entry-date">
