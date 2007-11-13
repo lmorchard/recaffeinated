@@ -1,0 +1,12 @@
+^if(^equal(^get(id), ^getFor(current,id)))^ 
+^include(page-header, page-header.html)^
+^endif^
+    ^if(^text)^<div class="intro">^text^</div>^endif^
+    <ol class="xoxo">
+        <li class="year">
+        ^justChildren^
+        </li>
+    </ol>
+^if(^equal(^get(id), ^getFor(current,id)))^ 
+^include(page-footer, page-footer.html)^
+^endif^

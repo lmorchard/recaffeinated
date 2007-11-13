@@ -1,0 +1,2152 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<tinderbox version="2" revision="4" >
+<attrib Name="anything" editable="0" visibleInEditor="1" default="" >
+<attrib Name="System" parent="anything" editable="0" visibleInEditor="1" default="" >
+<attrib Name="Agent" parent="System" editable="0" visibleInEditor="1" type="4" default="false" >
+<attrib Name="AgentAction" parent="Agent" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="AgentCaseSensitive" parent="Agent" editable="1" visibleInEditor="1" type="4" default="true" >
+</attrib>
+<attrib Name="AgentPriority" parent="Agent" editable="1" visibleInEditor="1" type="2" default="1" >
+</attrib>
+<attrib Name="AgentQuery" parent="Agent" editable="1" visibleInEditor="1" default="" >
+</attrib>
+</attrib>
+<attrib Name="General" parent="System" editable="0" visibleInEditor="1" default="" >
+<attrib Name="ChildCount" parent="General" editable="0" visibleInEditor="1" type="2" default="0" >
+</attrib>
+<attrib Name="Created" parent="General" editable="0" visibleInEditor="1" type="5" canInherit="0" default="never" >
+</attrib>
+<attrib Name="Creator" parent="General" editable="0" visibleInEditor="1" kind="1" canInherit="0" default="" >
+</attrib>
+<attrib Name="DescendantCount" parent="General" editable="0" visibleInEditor="1" type="2" default="0" >
+</attrib>
+<attrib Name="File" parent="General" editable="1" visibleInEditor="1" type="3" default="" >
+</attrib>
+<attrib Name="ID" parent="General" editable="0" visibleInEditor="0" type="2" canInherit="0" default="0" >
+</attrib>
+<attrib Name="InboundLinkCount" parent="General" editable="0" visibleInEditor="1" type="2" default="0" >
+</attrib>
+<attrib Name="IsPrototype" parent="General" editable="1" visibleInEditor="1" type="4" canInherit="0" default="false" >
+</attrib>
+<attrib Name="Modified" parent="General" editable="0" visibleInEditor="1" type="5" canInherit="0" default="never" >
+</attrib>
+<attrib Name="Name" parent="General" editable="1" visibleInEditor="1" canInherit="0" default="untitled" >
+</attrib>
+<attrib Name="OnAdd" parent="General" editable="1" visibleInEditor="1" type="7" default="" >
+</attrib>
+<attrib Name="OutboundLinkCount" parent="General" editable="0" visibleInEditor="1" type="2" default="0" >
+</attrib>
+<attrib Name="OutlineDepth" parent="General" editable="0" visibleInEditor="1" type="2" default="0" >
+</attrib>
+<attrib Name="OutlineOrder" parent="General" editable="0" visibleInEditor="1" type="2" default="0" >
+</attrib>
+<attrib Name="Private" parent="General" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="Prototype" parent="General" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="PrototypeBequeathsChildren" parent="General" editable="1" visibleInEditor="1" type="4" default="true" >
+</attrib>
+<attrib Name="Rule" parent="General" editable="1" visibleInEditor="1" type="7" default="" >
+</attrib>
+<attrib Name="SiblingOrder" parent="General" editable="0" visibleInEditor="1" type="2" default="0" >
+</attrib>
+<attrib Name="WebLinkCount" parent="General" editable="0" visibleInEditor="1" type="2" default="0" >
+</attrib>
+</attrib>
+<attrib Name="HTML" parent="System" editable="0" visibleInEditor="1" default="" >
+<attrib Name="HTMLBoldEnd" parent="HTML" editable="1" visibleInEditor="1" default="&lt;/b&gt;" >
+</attrib>
+<attrib Name="HTMLBoldStart" parent="HTML" editable="1" visibleInEditor="1" default="&lt;b&gt;" >
+</attrib>
+<attrib Name="HTMLCloud1End" parent="HTML" editable="1" visibleInEditor="1" default="&lt;/span&gt;" >
+</attrib>
+<attrib Name="HTMLCloud1Start" parent="HTML" editable="1" visibleInEditor="1" default="&lt;span style=&quot;font-size: 0.75em&quot; &gt;" >
+</attrib>
+<attrib Name="HTMLCloud2End" parent="HTML" editable="1" visibleInEditor="1" default="&lt;/span&gt;" >
+</attrib>
+<attrib Name="HTMLCloud2Start" parent="HTML" editable="1" visibleInEditor="1" default="&lt;span style=&quot;font-size: 1em&quot; &gt;" >
+</attrib>
+<attrib Name="HTMLCloud3End" parent="HTML" editable="1" visibleInEditor="1" default="&lt;/span&gt;" >
+</attrib>
+<attrib Name="HTMLCloud3Start" parent="HTML" editable="1" visibleInEditor="1" default="&lt;span style=&quot;font-size: 1.4em&quot; &gt;" >
+</attrib>
+<attrib Name="HTMLCloud4End" parent="HTML" editable="1" visibleInEditor="1" default="&lt;/span&gt;" >
+</attrib>
+<attrib Name="HTMLCloud4Start" parent="HTML" editable="1" visibleInEditor="1" default="&lt;span style=&quot;font-size: 2em&quot; &gt;" >
+</attrib>
+<attrib Name="HTMLCloud5End" parent="HTML" editable="1" visibleInEditor="1" default="&lt;/span&gt;" >
+</attrib>
+<attrib Name="HTMLCloud5Start" parent="HTML" editable="1" visibleInEditor="1" default="&lt;span style=&quot;font-size: 2.8em&quot; &gt;" >
+</attrib>
+<attrib Name="HTMLDontExport" parent="HTML" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="HTMLEntities" parent="HTML" editable="1" visibleInEditor="1" type="4" default="true" >
+</attrib>
+<attrib Name="HTMLExportAfter" parent="HTML" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="HTMLExportBefore" parent="HTML" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="HTMLExportChildren" parent="HTML" editable="1" visibleInEditor="1" type="4" default="true" >
+</attrib>
+<attrib Name="HTMLExportCommand" parent="HTML" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="HTMLExportExtension" parent="HTML" editable="1" visibleInEditor="1" kind="9" default=".html" >
+</attrib>
+<attrib Name="HTMLExportFileName" parent="HTML" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="HTMLExportTemplate" parent="HTML" editable="1" visibleInEditor="1" kind="6" type="3" default="Macintosh HD:Users:lorchard:devel:trunk:recaffinated:templates:default.html" >
+</attrib>
+<attrib Name="HTMLFileNameLowerCase" parent="HTML" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="HTMLFileNameMaxLength" parent="HTML" editable="1" visibleInEditor="1" type="2" default="24" >
+</attrib>
+<attrib Name="HTMLFirstParagraphEnd" parent="HTML" editable="1" visibleInEditor="1" default="&lt;/p&gt;" >
+</attrib>
+<attrib Name="HTMLFirstParagraphStart" parent="HTML" editable="1" visibleInEditor="1" default="&lt;p&gt;" >
+</attrib>
+<attrib Name="HTMLImageEnd" parent="HTML" editable="1" visibleInEditor="1" default="&gt;" >
+</attrib>
+<attrib Name="HTMLImageStart" parent="HTML" editable="1" visibleInEditor="1" default="&lt;img" >
+</attrib>
+<attrib Name="HTMLIndentedParagraphEnd" parent="HTML" editable="1" visibleInEditor="1" default="&lt;/p&gt;" >
+</attrib>
+<attrib Name="HTMLIndentedParagraphStart" parent="HTML" editable="1" visibleInEditor="1" default="&lt;p style=&quot;text-indent:3em;&quot; &gt;" >
+</attrib>
+<attrib Name="HTMLItalicEnd" parent="HTML" editable="1" visibleInEditor="1" default="&lt;/i&gt;" >
+</attrib>
+<attrib Name="HTMLItalicStart" parent="HTML" editable="1" visibleInEditor="1" default="&lt;i&gt;" >
+</attrib>
+<attrib Name="HTMLListEnd" parent="HTML" editable="1" visibleInEditor="1" default="&lt;/ul&gt;" >
+</attrib>
+<attrib Name="HTMLListItemEnd" parent="HTML" editable="1" visibleInEditor="1" default="&lt;/li&gt;" >
+</attrib>
+<attrib Name="HTMLListItemStart" parent="HTML" editable="1" visibleInEditor="1" default="&lt;li&gt;" >
+</attrib>
+<attrib Name="HTMLListStart" parent="HTML" editable="1" visibleInEditor="1" default="&lt;ul&gt;" >
+</attrib>
+<attrib Name="HTMLMarkupText" parent="HTML" editable="1" visibleInEditor="1" type="4" default="true" >
+</attrib>
+<attrib Name="HTMLOrderedListEnd" parent="HTML" editable="1" visibleInEditor="1" default="&lt;/ol&gt;" >
+</attrib>
+<attrib Name="HTMLOrderedListStart" parent="HTML" editable="1" visibleInEditor="1" default="&lt;ol&gt;" >
+</attrib>
+<attrib Name="HTMLOverwriteImages" parent="HTML" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="HTMLParagraphEnd" parent="HTML" editable="1" visibleInEditor="1" default="&lt;/p&gt;" >
+</attrib>
+<attrib Name="HTMLParagraphStart" parent="HTML" editable="1" visibleInEditor="1" default="&lt;p&gt;" >
+</attrib>
+<attrib Name="HTMLQuoteHTML" parent="HTML" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="HTMLUnderlineEnd" parent="HTML" editable="1" visibleInEditor="1" default="&lt;/u&gt;" >
+</attrib>
+<attrib Name="HTMLUnderlineStart" parent="HTML" editable="1" visibleInEditor="1" default="&lt;u&gt;" >
+</attrib>
+</attrib>
+<attrib Name="Internal" parent="System" editable="0" visibleInEditor="0" default="" >
+<attrib Name="Alias" parent="Internal" editable="0" visibleInEditor="0" type="6" default="0" >
+</attrib>
+<attrib Name="EntryScript" parent="Internal" editable="0" visibleInEditor="0" default="" >
+</attrib>
+<attrib Name="ExitScript" parent="Internal" editable="0" visibleInEditor="0" default="" >
+</attrib>
+<attrib Name="WindowPlace" parent="Internal" editable="0" visibleInEditor="0" default="" >
+</attrib>
+</attrib>
+<attrib Name="Map" parent="System" editable="0" visibleInEditor="1" default="" >
+<attrib Name="Badge" parent="Map" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="Border" parent="Map" editable="1" visibleInEditor="1" type="2" default="2" >
+</attrib>
+<attrib Name="BorderBevel" parent="Map" editable="1" visibleInEditor="1" default="normal" >
+</attrib>
+<attrib Name="BorderColor" parent="Map" editable="1" visibleInEditor="1" type="1" default="automatic" >
+</attrib>
+<attrib Name="Color" parent="Map" editable="1" visibleInEditor="1" type="1" default="dark warm gray" >
+</attrib>
+<attrib Name="Color2" parent="Map" editable="1" visibleInEditor="1" type="1" default="light warm gray" >
+</attrib>
+<attrib Name="Height" parent="Map" editable="1" visibleInEditor="1" type="2" canInherit="0" default="1" >
+</attrib>
+<attrib Name="InteriorScale" parent="Map" editable="1" visibleInEditor="1" kind="20" default="1.5" >
+</attrib>
+<attrib Name="Lock" parent="Map" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="MapBackgroundColor" parent="Map" editable="1" visibleInEditor="1" kind="3" type="1" default="#f2f2e6" >
+</attrib>
+<attrib Name="MapBodyTextSize" parent="Map" editable="1" visibleInEditor="1" type="2" default="0" >
+</attrib>
+<attrib Name="MapPrototypeColor" parent="Map" editable="1" visibleInEditor="1" kind="13" type="1" default="#ddeedd" >
+</attrib>
+<attrib Name="MapTextSize" parent="Map" editable="1" visibleInEditor="1" type="2" default="100" >
+</attrib>
+<attrib Name="NameAlignment" parent="Map" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="NameBold" parent="Map" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="NameColor" parent="Map" editable="1" visibleInEditor="1" type="1" default="automatic" >
+</attrib>
+<attrib Name="NameFont" parent="Map" editable="1" visibleInEditor="1" kind="2" default="Georgia" >
+</attrib>
+<attrib Name="OutlineColorSwatch" parent="Map" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="OutlineTextSize" parent="Map" editable="1" visibleInEditor="1" type="2" default="100" >
+</attrib>
+<attrib Name="Pattern" parent="Map" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="Separator" parent="Map" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="Shape" parent="Map" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="Sticky" parent="Map" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="Width" parent="Map" editable="1" visibleInEditor="1" type="2" canInherit="0" default="3" >
+</attrib>
+<attrib Name="Xpos" parent="Map" editable="1" visibleInEditor="1" type="2" canInherit="0" default="0" >
+</attrib>
+<attrib Name="Ypos" parent="Map" editable="1" visibleInEditor="1" type="2" canInherit="0" default="0" >
+</attrib>
+</attrib>
+<attrib Name="Net" parent="System" editable="0" visibleInEditor="1" default="" >
+<attrib Name="AutoFetch" parent="Net" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="AutoFetchCommand" parent="Net" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="LastFetched" parent="Net" editable="0" visibleInEditor="1" type="5" canInherit="0" default="never" >
+</attrib>
+<attrib Name="RSSChannelTemplate" parent="Net" editable="1" visibleInEditor="1" default="RSSChannel" >
+</attrib>
+<attrib Name="RSSItemLimit" parent="Net" editable="1" visibleInEditor="1" type="2" default="0" >
+</attrib>
+<attrib Name="RSSItemTemplate" parent="Net" editable="1" visibleInEditor="1" default="RSSItem" >
+</attrib>
+<attrib Name="RawData" parent="Net" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="URL" parent="Net" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="ViewInBrowser" parent="Net" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+</attrib>
+<attrib Name="People" parent="System" editable="0" visibleInEditor="1" default="" >
+<attrib Name="AIM" parent="People" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="Address" parent="People" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="Email" parent="People" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="FullName" parent="People" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="Organization" parent="People" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="Telephone" parent="People" editable="1" visibleInEditor="1" default="" >
+</attrib>
+</attrib>
+<attrib Name="Sorting" parent="System" editable="0" visibleInEditor="1" default="" >
+<attrib Name="Sort" parent="Sorting" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="SortAlso" parent="Sorting" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="SortAlsoTransform" parent="Sorting" editable="1" visibleInEditor="1" default="case-sensitive" >
+</attrib>
+<attrib Name="SortBackward" parent="Sorting" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="SortBackwardAlso" parent="Sorting" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="SortTransform" parent="Sorting" editable="1" visibleInEditor="1" default="case-sensitive" >
+</attrib>
+</attrib>
+<attrib Name="Text" parent="System" editable="0" visibleInEditor="1" default="" >
+<attrib Name="ReadOnly" parent="Text" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="TextExportTemplate" parent="Text" editable="1" visibleInEditor="1" kind="10" default="Macintosh HD:Users:lorchard:outline" >
+</attrib>
+<attrib Name="TextLength" parent="Text" editable="0" visibleInEditor="1" type="2" default="0" >
+</attrib>
+<attrib Name="WordCount" parent="Text" editable="0" visibleInEditor="1" type="2" default="0" >
+</attrib>
+<attrib Name="Wordcount" parent="Text" editable="0" visibleInEditor="0" type="2" default="0" >
+</attrib>
+</attrib>
+<attrib Name="TextFormat" parent="System" editable="0" visibleInEditor="1" default="" >
+<attrib Name="KeyAttributes" parent="TextFormat" editable="1" visibleInEditor="1" type="8" default="" >
+</attrib>
+<attrib Name="LeftMargin" parent="TextFormat" editable="1" visibleInEditor="1" kind="15" default="2" >
+</attrib>
+<attrib Name="LineSpacing" parent="TextFormat" editable="1" visibleInEditor="1" type="2" default="100" >
+</attrib>
+<attrib Name="ParagraphSpacing" parent="TextFormat" editable="1" visibleInEditor="1" kind="14" default="8" >
+</attrib>
+<attrib Name="RightMargin" parent="TextFormat" editable="1" visibleInEditor="1" kind="16" default="-2" >
+</attrib>
+<attrib Name="ShowTitle" parent="TextFormat" editable="1" visibleInEditor="1" kind="5" type="4" default="false" >
+</attrib>
+<attrib Name="Tabs" parent="TextFormat" editable="1" visibleInEditor="1" default="0.5;" >
+</attrib>
+<attrib Name="TextBackgroundColor" parent="TextFormat" editable="1" visibleInEditor="1" kind="8" type="1" default="#ffffff" >
+</attrib>
+<attrib Name="TextColor" parent="TextFormat" editable="1" visibleInEditor="1" kind="7" type="1" default="#000000" >
+</attrib>
+<attrib Name="TextFont" parent="TextFormat" editable="1" visibleInEditor="1" kind="18" default="Georgia" >
+</attrib>
+<attrib Name="TextFontSize" parent="TextFormat" editable="1" visibleInEditor="1" kind="19" type="2" default="14" >
+</attrib>
+<attrib Name="TextSidebar" parent="TextFormat" editable="1" visibleInEditor="1" kind="17" type="4" default="false" >
+</attrib>
+<attrib Name="TitleBackgroundColor" parent="TextFormat" editable="1" visibleInEditor="1" kind="12" type="1" default="#000000" >
+</attrib>
+<attrib Name="TitleFont" parent="TextFormat" editable="1" visibleInEditor="1" kind="4" default="Lucida Grande" >
+</attrib>
+<attrib Name="TitleForegroundColor" parent="TextFormat" editable="1" visibleInEditor="1" kind="11" type="1" default="#ffffff" >
+</attrib>
+</attrib>
+<attrib Name="Weblog" parent="System" editable="0" visibleInEditor="1" default="" >
+<attrib Name="WeblogPostID" parent="Weblog" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="mt_allow_comments" parent="Weblog" editable="1" visibleInEditor="1" type="2" default="1" >
+</attrib>
+<attrib Name="mt_allow_pings" parent="Weblog" editable="1" visibleInEditor="1" type="2" default="1" >
+</attrib>
+<attrib Name="mt_convert_breaks" parent="Weblog" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="mt_keywords" parent="Weblog" editable="1" visibleInEditor="1" default="" >
+</attrib>
+</attrib>
+</attrib>
+<attrib Name="User" parent="anything" editable="0" visibleInEditor="1" default="" >
+<attrib Name="AuthorEmail" parent="User" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="AuthorName" parent="User" editable="1" visibleInEditor="1" default="anonymous" >
+</attrib>
+<attrib Name="AuthorURL" parent="User" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="BaseUrl" parent="User" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="BodyClass" parent="User" editable="1" visibleInEditor="1" default="page" >
+</attrib>
+<attrib Name="CodeLanguage" parent="User" editable="1" visibleInEditor="1" default="php" >
+</attrib>
+<attrib Name="ImageURL" parent="User" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="IsDay" parent="User" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="IsEntry" parent="User" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="IsHome" parent="User" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="IsMonth" parent="User" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="IsPage" parent="User" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="ItemClass" parent="User" editable="1" visibleInEditor="1" default="entry" >
+</attrib>
+<attrib Name="OpenIDDelegate" parent="User" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="OpenIDServer" parent="User" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="SiteCopyright" parent="User" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="SiteCopyrightURL" parent="User" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="SiteInLocalMode" parent="User" editable="1" visibleInEditor="1" type="4" default="true" >
+</attrib>
+<attrib Name="SiteSkin" parent="User" editable="1" visibleInEditor="1" default="dev1" >
+</attrib>
+<attrib Name="SiteSubtitle" parent="User" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="SiteTitle" parent="User" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="SiteUrl" parent="User" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="Tags" parent="User" editable="1" visibleInEditor="1" type="8" default="" >
+</attrib>
+<attrib Name="UseSidebar" parent="User" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="debug" parent="User" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="id" parent="User" editable="1" visibleInEditor="1" type="2" sequential="1" default="376" >
+</attrib>
+</attrib>
+</attrib>
+<colors >
+<color name="black" color="#000000"  />
+<color name="blue" color="#003366"  />
+<color name="bright blue" color="#0000ff"  />
+<color name="bright green" color="#00ff00"  />
+<color name="bright red" color="#ff0000"  />
+<color name="cool gray" color="#607080"  />
+<color name="cool gray dark" color="#505860"  />
+<color name="cyan" color="#006666"  />
+<color name="green" color="#009900"  />
+<color name="magenta" color="#660066"  />
+<color name="normal" color="#000000"  />
+<color name="orange" color="#ff8800"  />
+<color name="poppy" color="#ffcc66"  />
+<color name="red" color="#990000"  />
+<color name="warm gray" color="#807060"  />
+<color name="warm gray dark" color="#605850"  />
+<color name="white" color="#ffffff"  />
+<color name="yellow" color="#cccc00"  />
+</colors>
+<menu name="Value" kind="stamps" >
+</menu>
+<linkTypes >
+<linkType name="*untitled" label="" visible="1" showLabel="0" color="#000000" style="0"  />
+<linkType name="agree" visible="1" showLabel="1" color="#000000" style="0"  />
+<linkType name="clarify" visible="1" showLabel="1" color="#000000" style="0"  />
+<linkType name="disagree" visible="1" showLabel="1" color="#000000" style="0"  />
+<linkType name="example" visible="1" showLabel="1" color="#000000" style="0"  />
+<linkType name="exception" visible="1" showLabel="1" color="#000000" style="0"  />
+<linkType name="note" visible="1" showLabel="1" color="#666666" style="0"  />
+<linkType name="note+" visible="1" showLabel="1" color="#444444" style="0"  />
+<linkType name="prototype" visible="0" showLabel="1" color="#993333" style="0"  />
+<linkType name="response" visible="1" showLabel="1" color="#000000" style="0"  />
+<linkType name="update" visible="1" showLabel="1" color="#000000" style="0"  />
+</linkTypes>
+<item ID="3277234544" Creator="system" >
+<attribute name="WindowPlace" >Rect[ 50 50 750 350]</attribute>
+<attribute name="Created" >6 Nov 2007 22:55:41</attribute>
+<attribute name="Modified" >6 Nov 2007 22:55:41</attribute>
+<attribute name="Name" >tindertumble</attribute>
+<attribute name="Xpos" >0</attribute>
+<attribute name="Ypos" >0</attribute>
+<item ID="3277234579" Creator="system" >
+<attribute name="WindowPlace" >Rect[ 50 50 750 350]</attribute>
+<attribute name="Created" >6 Nov 2007 22:56:18</attribute>
+<attribute name="Modified" >6 Nov 2007 22:56:18</attribute>
+<attribute name="Name" >README</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Xpos" >-2</attribute>
+<attribute name="Ypos" >-0.5</attribute>
+<attribute name="HTMLDontExport" >true</attribute>
+</item>
+<item ID="3277319633" Creator="lmorchard" >
+<attribute name="WindowPlace" >Rect[ 362 320 1124 722]</attribute>
+<attribute name="Created" >7 Nov 2007 22:33:52</attribute>
+<attribute name="Modified" >7 Nov 2007 22:52:49</attribute>
+<attribute name="Name" >Settings</attribute>
+<attribute name="IsPrototype" >true</attribute>
+<attribute name="Xpos" >9.5</attribute>
+<attribute name="Ypos" >-0.5</attribute>
+<attribute name="Badge" >tools</attribute>
+<attribute name="KeyAttributes" >SiteTitle;SiteSubtitle;SiteUrl;AuthorName;AuthorEmail;AuthorURL;OpenIDServer;OpenIDDelegate;SiteCopyright;SiteCopyrightURL;SiteSkin;SiteInLocalMode;debug</attribute>
+<attribute name="HTMLDontExport" >true</attribute>
+<attribute name="AuthorEmail" >l.m.orchard@pobox.com</attribute>
+<attribute name="AuthorName" >l.m.orchard</attribute>
+<attribute name="AuthorURL" >http://decafbad.com/</attribute>
+<attribute name="SiteCopyright" >Copyright 2007. Some rights reserved.</attribute>
+<attribute name="SiteCopyrightURL" >http://creativecommons.org/licenses/by-nc/3.0/</attribute>
+<attribute name="SiteSkin" >dev2</attribute>
+<attribute name="SiteSubtitle" >a lightweight meme stream from a lazy serial enthusiast</attribute>
+<attribute name="SiteTitle" >decafbad recaffinated</attribute>
+<attribute name="SiteUrl" >http://decafbad.com/recaffinated/</attribute>
+<attribute name="debug" >true</attribute>
+<attribute name="id" >194</attribute>
+<text >
+</text>
+<styles >
+ <tstyle font="Lucida Grande" bold="0" italic="0" underline="0" start="0" size="12" height="15" ascent="12" color="#000000"  />
+</styles>
+</item>
+<item ID="3277319150" Creator="lmorchard" >
+<attribute name="WindowPlace" >Rect[ 50 50 750 350]</attribute>
+<attribute name="Created" >7 Nov 2007 22:08:45</attribute>
+<attribute name="Modified" >7 Nov 2007 22:08:45</attribute>
+<attribute name="Name" >authoring</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Separator" >true</attribute>
+<attribute name="Xpos" >2</attribute>
+<attribute name="Ypos" >-0.5</attribute>
+<attribute name="HTMLDontExport" >true</attribute>
+<attribute name="id" >188</attribute>
+</item>
+<item ID="3277578110" Creator="lmorchard" >
+<attribute name="WindowPlace" >Rect[ 518 127 1018 477]</attribute>
+<attribute name="Created" >10 Nov 2007 22:21:49</attribute>
+<attribute name="Modified" >10 Nov 2007 23:12:25</attribute>
+<attribute name="Name" >About</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Height" >1</attribute>
+<attribute name="Width" >3</attribute>
+<attribute name="Xpos" >13</attribute>
+<attribute name="Ypos" >-0.5</attribute>
+<attribute name="HTMLExportFileName" >about</attribute>
+<attribute name="id" >323</attribute>
+<item ID="3277581162" Creator="lmorchard" >
+<attribute name="WindowPlace" >Rect[ 359 356 878 809]</attribute>
+<attribute name="Created" >10 Nov 2007 23:12:41</attribute>
+<attribute name="Modified" >11 Nov 2007 11:55:06</attribute>
+<attribute name="Name" >Who are you?</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Xpos" >-1</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="id" >349</attribute>
+<text >I&apos;m Leslie Michael Orchard, but you can call me Les.  I&apos;m also indexed as l.m.orchard - which is really the sole reason for me using that weird moniker all over the place.  That, and it seems kind of mysterious.
+
+I&apos;m to blame for decafbad.com and in whatever state of neglect it finds itself these days.  I&apos;ve also got lots of projects strewn around, in various states of progress.  All this is thanks to my nature as a serial enthusiast.</text>
+<styles >
+ <tstyle font="Georgia" bold="0" italic="0" underline="0" start="0" size="14" height="16" ascent="13" color="#000000"  />
+ <tstyle font="Georgia" bold="0" italic="0" underline="0" start="63" size="14" height="16" ascent="13" color="#0066cc"  />
+ <tstyle font="Georgia" bold="0" italic="0" underline="0" start="85" size="14" height="16" ascent="13" color="#000000"  />
+ <tstyle font="Georgia" bold="0" italic="0" underline="0" start="230" size="14" height="16" ascent="13" color="#0066cc"  />
+ <tstyle font="Georgia" bold="0" italic="0" underline="0" start="242" size="14" height="16" ascent="13" color="#000000"  />
+ <tstyle font="Georgia" bold="0" italic="0" underline="0" start="319" size="14" height="16" ascent="13" color="#0066cc"  />
+ <tstyle font="Georgia" bold="0" italic="0" underline="0" start="349" size="14" height="16" ascent="13" color="#000000"  />
+ <tstyle font="Georgia" bold="0" italic="0" underline="0" start="405" size="14" height="16" ascent="13" color="#0066cc"  />
+ <tstyle font="Georgia" bold="0" italic="0" underline="0" start="437" size="14" height="16" ascent="13" color="#000000"  />
+</styles>
+</item>
+<item ID="3277580911" Creator="lmorchard" >
+<attribute name="WindowPlace" >Rect[ 456 326 956 676]</attribute>
+<attribute name="Created" >10 Nov 2007 23:08:30</attribute>
+<attribute name="Modified" >11 Nov 2007 11:55:16</attribute>
+<attribute name="Name" >What&apos;s it all about?</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Xpos" >-4.5</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="id" >342</attribute>
+<text >This is all about getting ideas and references to things out of my head as quickly as possible and onto the web, both for your perusal and my own.  You could call it blogging, micro-blogging, tumble-logging, whatever.  It&apos;s an attempt to build a catch-all spillover bucket that presents me with the least perceived mental effort.</text>
+<styles >
+ <tstyle font="Georgia" bold="0" italic="0" underline="0" start="0" size="14" height="16" ascent="13" color="#000000"  />
+</styles>
+</item>
+<item ID="3277580950" Creator="lmorchard" >
+<attribute name="WindowPlace" >Rect[ 461 473 961 823]</attribute>
+<attribute name="Created" >10 Nov 2007 23:08:40</attribute>
+<attribute name="Modified" >10 Nov 2007 23:32:01</attribute>
+<attribute name="Name" >Why another thingy?</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Xpos" >2.5</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="id" >344</attribute>
+<text >Because I figured I needed to try something new to break the ice.  Shiny things demand that I play with them.  Also, I&apos;m hoping Tinderbox is less mentally costly to use than just about anything else I&apos;ve used, yet offers a little more flexibility than a few other options I&apos;ve tried.  And it&apos;s something new - did I mention that?
+
+We&apos;ll see how it works out.</text>
+<styles >
+ <tstyle font="Georgia" bold="0" italic="0" underline="0" start="0" size="14" height="16" ascent="13" color="#000000"  />
+</styles>
+</item>
+<item ID="3277580949" Creator="lmorchard" >
+<attribute name="WindowPlace" >Rect[ 491 368 991 718]</attribute>
+<attribute name="Created" >10 Nov 2007 23:08:34</attribute>
+<attribute name="Modified" >11 Nov 2007 11:50:27</attribute>
+<attribute name="Name" >How is it done?</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Xpos" >-1</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="id" >343</attribute>
+<text >I&apos;m using Eastgate Tinderbox.  This software kicks ass:  It&apos;s an outliner, a mind-mapper, a personal content management and publishing system, a dessert topping, and a floor wax.  It&apos;s the Adobe Photoshop for ideas, and I&apos;m finally trying out the publishing features after years of using it for things that never left my screen.  Well, unless you count a couple of books.
+
+Anyway, if you&apos;re really interested in seeing how this works, the source files are available from my Subversion repository.  Since I use this repository to keep my own stuff versioned and safe, it should be relatively up to date with this site.  If you want to use this stuff for your own site, go right ahead - maybe drop a mention of where you found it, and change the style around a bit so it doesn&apos;t look exactly like my site.</text>
+<styles >
+ <tstyle font="Georgia" bold="0" italic="0" underline="0" start="0" size="14" height="16" ascent="13" color="#000000"  />
+ <tstyle font="Georgia" bold="0" italic="0" underline="0" start="10" size="14" height="16" ascent="13" color="#0066cc"  />
+ <tstyle font="Georgia" bold="0" italic="0" underline="0" start="28" size="14" height="16" ascent="13" color="#000000"  />
+ <tstyle font="Georgia" bold="0" italic="0" underline="0" start="353" size="14" height="16" ascent="13" color="#0066cc"  />
+ <tstyle font="Georgia" bold="0" italic="0" underline="0" start="370" size="14" height="16" ascent="13" color="#000000"  />
+ <tstyle font="Georgia" bold="0" italic="0" underline="0" start="456" size="14" height="16" ascent="13" color="#0066cc"  />
+ <tstyle font="Georgia" bold="0" italic="0" underline="0" start="495" size="14" height="16" ascent="13" color="#000000"  />
+ <tstyle font="Georgia" bold="0" italic="1" underline="0" start="782" size="14" height="16" ascent="13" color="#000000"  />
+ <tstyle font="Georgia" bold="0" italic="0" underline="0" start="789" size="14" height="16" ascent="13" color="#000000"  />
+</styles>
+</item>
+</item>
+<item ID="3277441460" Creator="lmorchard" >
+<attribute name="WindowPlace" >Rect[ 50 50 550 400]</attribute>
+<attribute name="Created" >9 Nov 2007 8:24:19</attribute>
+<attribute name="Modified" >9 Nov 2007 8:25:06</attribute>
+<attribute name="Name" >Inbox</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Height" >1</attribute>
+<attribute name="Width" >3</attribute>
+<attribute name="Xpos" >9.5</attribute>
+<attribute name="Ypos" >-0.5</attribute>
+<attribute name="Badge" >mail</attribute>
+<attribute name="HTMLDontExport" >true</attribute>
+<attribute name="HTMLExportChildren" >false</attribute>
+<attribute name="id" >274</attribute>
+</item>
+<item ID="3277297197" Creator="lmorchard" >
+<attribute name="Created" >7 Nov 2007 16:16:30</attribute>
+<attribute name="Modified" >7 Nov 2007 16:16:30</attribute>
+<attribute name="Name" >Drafts</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Height" >1</attribute>
+<attribute name="Width" >3</attribute>
+<attribute name="Xpos" >6</attribute>
+<attribute name="Ypos" >-0.5</attribute>
+<attribute name="HTMLDontExport" >true</attribute>
+<attribute name="HTMLExportChildren" >false</attribute>
+<attribute name="id" >81</attribute>
+</item>
+<item ID="3277237197" Creator="lmorchard" >
+<attribute name="WindowPlace" >Rect[ 598 126 1060 421]</attribute>
+<attribute name="Created" >6 Nov 2007 23:39:56</attribute>
+<attribute name="Modified" >12 Nov 2007 16:55:34</attribute>
+<attribute name="Name" >Archives</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Color" >magenta</attribute>
+<attribute name="Xpos" >10</attribute>
+<attribute name="Ypos" >-0.5</attribute>
+<attribute name="HTMLExportTemplate" >Macintosh HD:Users:lorchard:devel:trunk:recaffinated:templates:archives.html</attribute>
+<attribute name="HTMLExportFileName" >archives</attribute>
+<text >This is an archive of pages and days for which memes and things have been posted and written.  Item counts also include folders, so they might seem a little off.  But, don&apos;t fret - just relax and enjoy.</text>
+<styles >
+ <tstyle font="Lucida Grande" bold="0" italic="0" underline="0" start="0" size="12" height="15" ascent="12" color="#000000"  />
+</styles>
+<item ID="3277579747" Creator="lmorchard" >
+<attribute name="WindowPlace" >Rect[ 50 50 550 400]</attribute>
+<attribute name="Created" >10 Nov 2007 22:49:06</attribute>
+<attribute name="Modified" >10 Nov 2007 22:49:06</attribute>
+<attribute name="Name" >2007</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Height" >1</attribute>
+<attribute name="Width" >3</attribute>
+<attribute name="Xpos" >-4.5</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="id" >335</attribute>
+<item ID="3277579748" Creator="lmorchard" >
+<attribute name="WindowPlace" >Rect[ 50 50 550 400]</attribute>
+<attribute name="Created" >10 Nov 2007 22:49:06</attribute>
+<attribute name="Modified" >10 Nov 2007 22:49:06</attribute>
+<attribute name="Name" >11</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Height" >1</attribute>
+<attribute name="Width" >3</attribute>
+<attribute name="Xpos" >-4.5</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="id" >336</attribute>
+<item ID="3277579749" Creator="lmorchard" >
+<attribute name="WindowPlace" >Rect[ 50 50 550 400]</attribute>
+<attribute name="Created" >10 Nov 2007 22:49:07</attribute>
+<attribute name="Modified" >10 Nov 2007 22:49:07</attribute>
+<attribute name="Name" >10</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Height" >1</attribute>
+<attribute name="Width" >3</attribute>
+<attribute name="Xpos" >-4.5</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="id" >337</attribute>
+<item ID="3277579756" Creator="lmorchard" >
+<attribute name="WindowPlace" >Rect[ 401 232 958 786]</attribute>
+<attribute name="Created" >10 Nov 2007 22:49:15</attribute>
+<attribute name="Modified" >10 Nov 2007 23:44:47</attribute>
+<attribute name="Name" >Hello world.  I&apos;m trying out yet another blog.</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Height" >1</attribute>
+<attribute name="Width" >3</attribute>
+<attribute name="Xpos" >-4.5</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="id" >338</attribute>
+<text >This blog is something new for me:  After around seven years of using Eastgate Tinderbox for private notes, I finally sat down and spent time with its HTML export templates.  After a bit of amateur design effort and some trial and error, I&apos;ve thrown together something to publish online.
+
+This isn&apos;t entirely new, however.  I&apos;ve borrowed a crapload from Tumblr by building lots of templates for memes and media objects.  And, I&apos;ve tried to model authoring habits after what I do with the OPML Editor by centering the thing around a page-a-day and a minimum of mental cost in getting things out of my head.
+
+Let&apos;s see how far I go with it.</text>
+<styles >
+ <tstyle font="Georgia" bold="0" italic="0" underline="0" start="0" size="14" height="16" ascent="13" color="#000000"  />
+ <tstyle font="Georgia" bold="0" italic="0" underline="0" start="70" size="14" height="16" ascent="13" color="#0066cc"  />
+ <tstyle font="Georgia" bold="0" italic="0" underline="0" start="88" size="14" height="16" ascent="13" color="#000000"  />
+ <tstyle font="Georgia" bold="0" italic="0" underline="0" start="354" size="14" height="16" ascent="13" color="#0066cc"  />
+ <tstyle font="Georgia" bold="0" italic="0" underline="0" start="360" size="14" height="16" ascent="13" color="#000000"  />
+ <tstyle font="Georgia" bold="0" italic="0" underline="0" start="488" size="14" height="16" ascent="13" color="#0066cc"  />
+ <tstyle font="Georgia" bold="0" italic="0" underline="0" start="499" size="14" height="16" ascent="13" color="#000000"  />
+</styles>
+</item>
+<item ID="3277583031" Creator="lmorchard" >
+<attribute name="WindowPlace" >Rect[ 50 50 550 400]</attribute>
+<attribute name="Created" >10 Nov 2007 23:43:50</attribute>
+<attribute name="Modified" >10 Nov 2007 23:43:50</attribute>
+<attribute name="Name" >I might try doing a screencast of how I blog with this thing.  It might be interesting to someone.</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Height" >1</attribute>
+<attribute name="Width" >3</attribute>
+<attribute name="Xpos" >-1</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="id" >353</attribute>
+</item>
+<item ID="3277580951" Creator="lmorchard" >
+<attribute name="WindowPlace" >Rect[ 50 50 550 400]</attribute>
+<attribute name="Created" >10 Nov 2007 23:04:07</attribute>
+<attribute name="Modified" >10 Nov 2007 23:04:07</attribute>
+<attribute name="Name" >The feeds are probably invalid around here.  Still got kinks to work out.</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Height" >1</attribute>
+<attribute name="Width" >3</attribute>
+<attribute name="Xpos" >-1</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="id" >339</attribute>
+</item>
+<item ID="3277580952" Creator="lmorchard" >
+<attribute name="WindowPlace" >Rect[ 50 50 550 400]</attribute>
+<attribute name="Created" >10 Nov 2007 23:06:07</attribute>
+<attribute name="Modified" >10 Nov 2007 23:06:07</attribute>
+<attribute name="Name" >I&apos;m also trying to decide whether this thing needs comments.</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Height" >1</attribute>
+<attribute name="Width" >3</attribute>
+<attribute name="Xpos" >2.5</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="id" >340</attribute>
+</item>
+<item ID="3277580953" Creator="lmorchard" >
+<attribute name="WindowPlace" >Rect[ 545 336 1045 686]</attribute>
+<attribute name="Created" >10 Nov 2007 23:06:24</attribute>
+<attribute name="Modified" >10 Nov 2007 23:43:13</attribute>
+<attribute name="Name" >Still Alive</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Height" >1</attribute>
+<attribute name="Width" >3</attribute>
+<attribute name="Xpos" >6</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="URL" >http://itsthedoc.net/music/portal_still_alive.mp3</attribute>
+<attribute name="id" >341</attribute>
+<text >This is a great song from the ending of Portal, excellent for trying out my inline audio player.</text>
+<styles >
+ <tstyle font="Georgia" bold="0" italic="0" underline="0" start="0" size="14" height="16" ascent="13" color="#000000"  />
+</styles>
+</item>
+<item ID="3277582567" Creator="lmorchard" >
+<attribute name="WindowPlace" >Rect[ 518 416 1018 766]</attribute>
+<attribute name="Created" >10 Nov 2007 23:36:06</attribute>
+<attribute name="Modified" >10 Nov 2007 23:42:31</attribute>
+<attribute name="Name" >As you can see, I&apos;ve got a few tricks in the templates.</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Height" >1</attribute>
+<attribute name="Width" >3</attribute>
+<attribute name="Xpos" >9.5</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="id" >350</attribute>
+<text >I can drop in items especially styled for quotes, chat transcripts, images, audio files, and the occasional long-winded essay.  Eventually I hope to find a streamlined way to use each of them.</text>
+<styles >
+ <tstyle font="Georgia" bold="0" italic="0" underline="0" start="0" size="14" height="16" ascent="13" color="#000000"  />
+</styles>
+</item>
+<item ID="3277582826" Creator="lmorchard" >
+<attribute name="WindowPlace" >Rect[ 50 50 550 400]</attribute>
+<attribute name="Created" >10 Nov 2007 23:40:25</attribute>
+<attribute name="Modified" >10 Nov 2007 23:40:25</attribute>
+<attribute name="Name" >Since I&apos;ve been watching a crazy amount of Babylon 5 lately, I&apos;ll try another trick.</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Height" >1</attribute>
+<attribute name="Width" >3</attribute>
+<attribute name="Xpos" >13</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="id" >352</attribute>
+</item>
+<item ID="3277582742" Creator="lmorchard" >
+<attribute name="WindowPlace" >Rect[ 50 50 550 400]</attribute>
+<attribute name="Created" >10 Nov 2007 23:39:01</attribute>
+<attribute name="Modified" >10 Nov 2007 23:40:04</attribute>
+<attribute name="Name" >Zathras</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Height" >1</attribute>
+<attribute name="Width" >3</attribute>
+<attribute name="Xpos" >13</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="URL" >http://www.loyd.net/osz/wisdom.html</attribute>
+<attribute name="id" >351</attribute>
+<text >Everyone always coming to Zathras with problems. Great responsibilities. But Zathras does not mind. Zathras trained in crisis management.</text>
+<styles >
+ <tstyle font="Lucida Grande" bold="0" italic="0" underline="0" start="0" size="13" height="16" ascent="13" color="#000000"  />
+</styles>
+</item>
+<item ID="3277583151" Creator="lmorchard" >
+<attribute name="WindowPlace" >Rect[ 50 50 550 400]</attribute>
+<attribute name="Created" >10 Nov 2007 23:45:50</attribute>
+<attribute name="Modified" >10 Nov 2007 23:45:50</attribute>
+<attribute name="Name" >I think that&apos;s enough for the moment.  I&apos;m going to try pushing this stuff to my web site.</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Height" >1</attribute>
+<attribute name="Width" >3</attribute>
+<attribute name="Xpos" >16.5</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="id" >354</attribute>
+</item>
+</item>
+<item ID="3277584116" Creator="lmorchard" >
+<attribute name="WindowPlace" >Rect[ 50 50 550 400]</attribute>
+<attribute name="Created" >11 Nov 2007 0:01:55</attribute>
+<attribute name="Modified" >11 Nov 2007 0:01:55</attribute>
+<attribute name="Name" >11</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Height" >1</attribute>
+<attribute name="Width" >3</attribute>
+<attribute name="Xpos" >-1</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="id" >355</attribute>
+<item ID="3277584129" Creator="lmorchard" >
+<attribute name="WindowPlace" >Rect[ 50 50 550 400]</attribute>
+<attribute name="Created" >11 Nov 2007 0:02:08</attribute>
+<attribute name="Modified" >11 Nov 2007 19:40:01</attribute>
+<attribute name="Name" >Hello world.  Oh, look:  It&apos;s another day!</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Height" >1</attribute>
+<attribute name="Width" >3</attribute>
+<attribute name="Xpos" >-4.5</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="id" >356</attribute>
+<text >I wonder how much I&apos;ll actually do with this thing?</text>
+<styles >
+ <tstyle font="Georgia" bold="0" italic="0" underline="0" start="0" size="14" height="16" ascent="13" color="#000000"  />
+</styles>
+</item>
+<item ID="3277654537" Creator="lmorchard" >
+<attribute name="WindowPlace" >Rect[ 468 315 968 665]</attribute>
+<attribute name="Created" >11 Nov 2007 19:35:36</attribute>
+<attribute name="Modified" >11 Nov 2007 19:39:25</attribute>
+<attribute name="Name" >Plans for this thing</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Height" >1</attribute>
+<attribute name="Width" >3</attribute>
+<attribute name="Xpos" >2.5</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="id" >365</attribute>
+<text >One of the next things I&apos;d like to do with this blog is hook in some importing from my own feeds.  That is, give it an inbox from my myriad other accounts like Delicious, Twitter, Flickr, etc.  Then, I can copy and tweak content items from each of those and turn them into items posted here.  
+I&apos;m wondering whether something manually massaged would work out better than just a simple automated feed blender.  Given that I&apos;m working off and on with FeedMagick, I&apos;ll probably do that too eventually and stick that on the front page of decafbad.com.</text>
+<styles >
+ <tstyle font="Georgia" bold="0" italic="0" underline="0" start="0" size="14" height="16" ascent="13" color="#000000"  />
+ <tstyle font="Georgia" bold="0" italic="0" underline="0" start="160" size="14" height="16" ascent="13" color="#0066cc"  />
+ <tstyle font="Georgia" bold="0" italic="0" underline="0" start="169" size="14" height="16" ascent="13" color="#000000"  />
+ <tstyle font="Georgia" bold="0" italic="0" underline="0" start="171" size="14" height="16" ascent="13" color="#0066cc"  />
+ <tstyle font="Georgia" bold="0" italic="0" underline="0" start="178" size="14" height="16" ascent="13" color="#000000"  />
+ <tstyle font="Georgia" bold="0" italic="0" underline="0" start="180" size="14" height="16" ascent="13" color="#0066cc"  />
+ <tstyle font="Georgia" bold="0" italic="0" underline="0" start="186" size="14" height="16" ascent="13" color="#000000"  />
+ <tstyle font="Georgia" bold="0" italic="0" underline="0" start="449" size="14" height="16" ascent="13" color="#0066cc"  />
+ <tstyle font="Georgia" bold="0" italic="0" underline="0" start="459" size="14" height="16" ascent="13" color="#000000"  />
+</styles>
+</item>
+</item>
+<item ID="3277701513" Creator="lmorchard" >
+<attribute name="WindowPlace" >Rect[ 50 50 550 400]</attribute>
+<attribute name="Created" >12 Nov 2007 8:38:32</attribute>
+<attribute name="Modified" >12 Nov 2007 8:38:32</attribute>
+<attribute name="Name" >12</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Height" >1</attribute>
+<attribute name="Width" >3</attribute>
+<attribute name="Xpos" >2.5</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="id" >366</attribute>
+<item ID="3277731836" Creator="lmorchard" >
+<attribute name="WindowPlace" >Rect[ 50 50 550 400]</attribute>
+<attribute name="Created" >12 Nov 2007 17:03:55</attribute>
+<attribute name="Modified" >12 Nov 2007 17:04:20</attribute>
+<attribute name="Name" >Dread Pirate Roberts</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Height" >1</attribute>
+<attribute name="Width" >3</attribute>
+<attribute name="Xpos" >2.5</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="URL" >http://www.imdb.com/title/tt0093779/quotes#qt0266930</attribute>
+<attribute name="id" >370</attribute>
+<text >Good night, Westley. Good work. Sleep well. I&apos;ll most likely kill you in the morning.</text>
+<styles >
+ <tstyle font="Lucida Grande" bold="0" italic="0" underline="0" start="0" size="13" height="16" ascent="13" color="#000000"  />
+</styles>
+</item>
+<item ID="3277712367" Creator="lmorchard" >
+<attribute name="WindowPlace" >Rect[ 562 51 1196 848]</attribute>
+<attribute name="Created" >12 Nov 2007 11:39:26</attribute>
+<attribute name="Modified" >12 Nov 2007 17:26:34</attribute>
+<attribute name="Name" >Good night, Tinderbox.  Good work.  Sleep well.  I&apos;ll most likely kill you in the morning.</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Height" >1</attribute>
+<attribute name="Width" >3</attribute>
+<attribute name="Xpos" >-1</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="id" >368</attribute>
+<text >So, I&apos;ve been using Tinderbox for a number of years now.  I&apos;ve used it in various capacities as an outliner, a personal idea catcher, and a book planner.  And up until now, I&apos;ve been plotting constantly to kill it.
+Well, maybe I shouldn&apos;t put it as seriously as that.  I&apos;ve got nothing against Tinderbox except that it&apos;s not Open Source, it&apos;s somewhat pricey (US$229), and it&apos;s kind of a niche app (Mac-only).  
+The reason these things worry me is because I&apos;d like to avoid locking my ideas away in a proprietary box that not many people know how to open and is certain to go away someday.  As we know, in the long run, the utility of all non-Free software approaches zero.
+But, to be honest: 
+* I&apos;ve been worrying that Tinderbox would go away for probably 7 or 8 years now — it hasn&apos;t and doesn&apos;t show signs that it will any time soon.
+* I&apos;ve gotten good use out of it for a number of years after my original license expired, using somewhat ancient versions still quite productively.
+* The complex user interface is powerful and yet pleasant for me to use after training myself to do so — out of all the idea management stuff I&apos;ve tried to plug my brain into, Tinderbox has been the one most worth the price.
+* The native format of Tinderbox files is XML and not some weird binary blob.  It&apos;s a structure specific to Tinderbox, but it&apos;s clean and mungeable XML nonetheless.
+So, over the past years, I&apos;ve been continually thinking of how to kill Tinderbox.  I&apos;ve built most of a JavaScript-based outliner.  I&apos;ve played with DOM scripting to make Map views.  I&apos;ve started and drifted away from a dozen other things all aimed at replacing Tinderbox for myself — and they&apos;ve all begun and ended in Tinderbox itself.  
+I start planning them in Tinderbox, and then I eventually return to Tinderbox to plan the next one.  But never has using Tinderbox become enough of an itch to finally commit to one of them and free myself from its clutches.  And, in the mean time, I keep myself from embracing all the features of Tinderbox for fear of getting more dependent on it.
+Well, I think it&apos;s time to admit that I&apos;m already very dependent on it.  And I really like how it works, mostly.  There are a few rough edges, but only in comparison to some platonic perfect app I&apos;ve got in my head that I&apos;ll never get around to writing as long as Tinderbox itself is available.
+So, I&apos;ve renewed my license and got up to date, and I&apos;ve thrown myself finally at the documentation for the state of Tinderbox export template art.  I&apos;ve gotten this start of a new blog put together, and I feel like I finally understand how this stuff works.  
+The sense I&apos;ve got for the fluidity of my ideas in Tinderbox has greatly increased.  My feelings of lock-in are deferred to the day when Tinderbox eventually goes away — a long time from now.  And even when Tinderbox goes away, I am comfortable enough with the data files left behind that I expect to be able to do something with them as long as any XML tools still exist.
+In the meantime, I&apos;m going to start finally exploring how I can take complete advantage of this crazy thing.</text>
+<styles >
+ <tstyle font="Georgia" bold="0" italic="0" underline="0" start="0" size="14" height="16" ascent="13" color="#000000"  />
+ <tstyle font="Georgia" bold="0" italic="0" underline="0" start="20" size="14" height="16" ascent="13" color="#0066cc"  />
+ <tstyle font="Georgia" bold="0" italic="0" underline="0" start="29" size="14" height="16" ascent="13" color="#000000"  />
+ <tstyle font="Georgia" bold="0" italic="0" underline="0" start="294" size="14" height="16" ascent="13" color="#0066cc"  />
+ <tstyle font="Georgia" bold="0" italic="0" underline="0" start="303" size="14" height="16" ascent="13" color="#000000"  />
+ <tstyle font="Georgia" bold="0" italic="0" underline="0" start="603" size="14" height="16" ascent="13" color="#0066cc"  />
+ <tstyle font="Georgia" bold="0" italic="0" underline="0" start="673" size="14" height="16" ascent="13" color="#000000"  />
+ <tstyle font="Georgia" bold="0" italic="0" underline="0" start="1463" size="14" height="16" ascent="13" color="#0066cc"  />
+ <tstyle font="Georgia" bold="0" italic="0" underline="0" start="1504" size="14" height="16" ascent="13" color="#000000"  />
+ <tstyle font="Georgia" bold="0" italic="0" underline="0" start="1524" size="14" height="16" ascent="13" color="#0066cc"  />
+ <tstyle font="Georgia" bold="0" italic="0" underline="0" start="1555" size="14" height="16" ascent="13" color="#000000"  />
+ <tstyle font="Georgia" bold="0" italic="1" underline="0" start="2935" size="14" height="16" ascent="13" color="#000000"  />
+ <tstyle font="Georgia" bold="0" italic="0" underline="0" start="2944" size="14" height="16" ascent="13" color="#000000"  />
+</styles>
+</item>
+<item ID="3277701707" Creator="lmorchard" >
+<attribute name="WindowPlace" >Rect[ 50 50 550 400]</attribute>
+<attribute name="Created" >12 Nov 2007 8:41:46</attribute>
+<attribute name="Modified" >12 Nov 2007 11:45:18</attribute>
+<attribute name="Name" >Hello world.  Shiny new toy blog here, let&apos;s see how it works.</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Height" >1</attribute>
+<attribute name="Width" >3</attribute>
+<attribute name="Xpos" >-4.5</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="id" >367</attribute>
+</item>
+<item ID="3277732930" Creator="lmorchard" >
+<attribute name="WindowPlace" >Rect[ 509 205 1065 815]</attribute>
+<attribute name="Created" >12 Nov 2007 17:22:09</attribute>
+<attribute name="Modified" >12 Nov 2007 17:24:58</attribute>
+<attribute name="Name" >Things are a little bare here at the moment.</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Height" >1</attribute>
+<attribute name="Width" >3</attribute>
+<attribute name="Xpos" >-1</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="id" >372</attribute>
+<text >I&apos;m starting pretty much from scratch here, trying to build things up carefully a piece at a time.  It&apos;s very sparse right now:  just the bare minimum needed to get some stuff out on the web with just a tiny bit of flavor.
+I&apos;m wondering what sort of additional navigation I might add in, and whether I can get away with a sidebar or a few contextual widgets that won&apos;t completely drive the page into a bloated mess.  I may tap Haloscan or Disqus for some comments.  I might pull in a MyBlogLog thingy.  Or maybe none of the above.  Hmm.</text>
+<styles >
+ <tstyle font="Georgia" bold="0" italic="0" underline="0" start="0" size="14" height="16" ascent="13" color="#000000"  />
+</styles>
+</item>
+</item>
+<item ID="3277756993" Creator="lmorchard" >
+<attribute name="WindowPlace" >Rect[ 50 50 550 400]</attribute>
+<attribute name="Created" >13 Nov 2007 0:03:12</attribute>
+<attribute name="Modified" >13 Nov 2007 0:03:12</attribute>
+<attribute name="Name" >13</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Height" >1</attribute>
+<attribute name="Width" >3</attribute>
+<attribute name="Xpos" >6</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="id" >375</attribute>
+<item ID="3277756890" Creator="lmorchard" >
+<attribute name="WindowPlace" >Rect[ 50 50 550 400]</attribute>
+<attribute name="Created" >13 Nov 2007 0:01:29</attribute>
+<attribute name="Modified" >13 Nov 2007 0:02:49</attribute>
+<attribute name="Name" >So I couldn&apos;t resist adding comments...</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Height" >1</attribute>
+<attribute name="Width" >3</attribute>
+<attribute name="Xpos" >2.5</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="id" >374</attribute>
+<text >I basically already had the code ready from my OPML blog, so I just adapted things a bit to integrate Haloscan comments into this thing.  I&apos;m tempted to see if the new and shiny Disqus service could fit in here, but that&apos;s another day&apos;s project.</text>
+<styles >
+ <tstyle font="Georgia" bold="0" italic="0" underline="0" start="0" size="14" height="16" ascent="13" color="#000000"  />
+ <tstyle font="Georgia" bold="0" italic="0" underline="0" start="47" size="14" height="16" ascent="13" color="#0066cc"  />
+ <tstyle font="Georgia" bold="0" italic="0" underline="0" start="56" size="14" height="16" ascent="13" color="#000000"  />
+ <tstyle font="Georgia" bold="0" italic="0" underline="0" start="178" size="14" height="16" ascent="13" color="#0066cc"  />
+ <tstyle font="Georgia" bold="0" italic="0" underline="0" start="184" size="14" height="16" ascent="13" color="#000000"  />
+</styles>
+</item>
+<item ID="3277805588" Creator="lmorchard" >
+<attribute name="WindowPlace" >Rect[ 50 50 550 400]</attribute>
+<attribute name="Created" >13 Nov 2007 13:33:07</attribute>
+<attribute name="Modified" >13 Nov 2007 13:33:36</attribute>
+<attribute name="Name" >Martijn Faassen</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Height" >1</attribute>
+<attribute name="Width" >3</attribute>
+<attribute name="Xpos" >6</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="URL" >http://www.oreillynet.com/onlamp/blog/2007/11/grok_repoze_and_wsgi_beg_the_q_1.html#comment-1822657</attribute>
+<attribute name="id" >376</attribute>
+<text >I&apos;m happy to see the hard work in the Zope community has finally started to pay off: for a change, our Zope work is actually being associated with flexible pluggable things instead of evil monolithic things. It&apos;s welcome news.</text>
+<styles >
+ <tstyle font="Lucida Grande" bold="0" italic="0" underline="0" start="0" size="13" height="16" ascent="13" color="#000000"  />
+</styles>
+</item>
+</item>
+</item>
+</item>
+</item>
+<item ID="3277319151" Creator="lmorchard" >
+<attribute name="WindowPlace" >Rect[ 50 50 750 350]</attribute>
+<attribute name="Created" >7 Nov 2007 22:09:08</attribute>
+<attribute name="Modified" >7 Nov 2007 22:09:08</attribute>
+<attribute name="Name" >agent pages</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Separator" >true</attribute>
+<attribute name="Xpos" >-2</attribute>
+<attribute name="Ypos" >1.5</attribute>
+<attribute name="HTMLDontExport" >true</attribute>
+<attribute name="id" >189</attribute>
+</item>
+<agent ID="3277292185" Creator="lmorchard" >
+<attribute name="AgentQuery" >#last(@allArchivedDays,3)</attribute>
+<attribute name="Agent" >true</attribute>
+<attribute name="WindowPlace" >Rect[ 551 196 992 682]</attribute>
+<attribute name="Created" >7 Nov 2007 14:56:24</attribute>
+<attribute name="Modified" >9 Nov 2007 19:53:21</attribute>
+<attribute name="Name" >Home page</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Height" >3</attribute>
+<attribute name="Width" >3</attribute>
+<attribute name="Xpos" >2</attribute>
+<attribute name="Ypos" >1.5</attribute>
+<attribute name="Badge" >home</attribute>
+<attribute name="Sort" >Created</attribute>
+<attribute name="SortBackward" >true</attribute>
+<attribute name="HTMLExportTemplate" >Macintosh HD:Users:lorchard:devel:trunk:recaffinated:templates:index.html</attribute>
+<attribute name="HTMLExportFileName" >index</attribute>
+<attribute name="HTMLExportChildren" >false</attribute>
+<attribute name="BodyClass" >home</attribute>
+<attribute name="IsHome" >true</attribute>
+<attribute name="IsPage" >true</attribute>
+<attribute name="id" >1</attribute>
+</agent>
+<agent ID="3277294971" Creator="lmorchard" >
+<attribute name="AgentQuery" >#first(@allArchivedEntries,15)</attribute>
+<attribute name="Agent" >true</attribute>
+<attribute name="WindowPlace" >Rect[ 50 50 750 350]</attribute>
+<attribute name="Created" >7 Nov 2007 15:42:50</attribute>
+<attribute name="Modified" >7 Nov 2007 15:42:50</attribute>
+<attribute name="Name" >RSS 2.0 feed</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Height" >3</attribute>
+<attribute name="Width" >3</attribute>
+<attribute name="Xpos" >6</attribute>
+<attribute name="Ypos" >1.5</attribute>
+<attribute name="Badge" >web</attribute>
+<attribute name="HTMLExportTemplate" >Macintosh HD:Users:lorchard:devel:trunk:recaffinated:templates:index.rss</attribute>
+<attribute name="HTMLExportExtension" >.rss</attribute>
+<attribute name="HTMLExportFileName" >index</attribute>
+<attribute name="HTMLExportChildren" >false</attribute>
+<attribute name="id" >78</attribute>
+</agent>
+<agent ID="3277294980" Creator="lmorchard" >
+<attribute name="AgentQuery" >#first(@allArchivedEntries,15)</attribute>
+<attribute name="Agent" >true</attribute>
+<attribute name="WindowPlace" >Rect[ 50 50 750 350]</attribute>
+<attribute name="Created" >7 Nov 2007 15:42:59</attribute>
+<attribute name="Modified" >7 Nov 2007 15:42:59</attribute>
+<attribute name="Name" >Atom 1.0 feed</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Height" >3</attribute>
+<attribute name="Width" >3</attribute>
+<attribute name="Xpos" >10</attribute>
+<attribute name="Ypos" >1.5</attribute>
+<attribute name="Badge" >web</attribute>
+<attribute name="HTMLExportTemplate" >Macintosh HD:Users:lorchard:devel:trunk:recaffinated:templates:index.atom</attribute>
+<attribute name="HTMLExportExtension" >.atom</attribute>
+<attribute name="HTMLExportFileName" >index</attribute>
+<attribute name="HTMLExportChildren" >false</attribute>
+<attribute name="id" >79</attribute>
+</agent>
+<item ID="3277319545" Creator="lmorchard" >
+<attribute name="WindowPlace" >Rect[ 50 50 750 350]</attribute>
+<attribute name="Created" >7 Nov 2007 22:32:24</attribute>
+<attribute name="Modified" >7 Nov 2007 22:32:24</attribute>
+<attribute name="Name" >docs</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Separator" >true</attribute>
+<attribute name="Xpos" >5.5</attribute>
+<attribute name="Ypos" >-0.5</attribute>
+<attribute name="HTMLDontExport" >true</attribute>
+<attribute name="HTMLExportChildren" >false</attribute>
+<attribute name="id" >193</attribute>
+<item ID="3277325277" Creator="lmorchard" >
+<attribute name="WindowPlace" >Rect[ 50 50 750 350]</attribute>
+<attribute name="Created" >8 Nov 2007 0:07:56</attribute>
+<attribute name="Modified" >8 Nov 2007 0:07:56</attribute>
+<attribute name="Name" >TODO</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Xpos" >1.5</attribute>
+<attribute name="Ypos" >-0.5</attribute>
+<attribute name="id" >206</attribute>
+<item ID="3277357865" Creator="lmorchard" >
+<attribute name="WindowPlace" >Rect[ 50 50 550 400]</attribute>
+<attribute name="Created" >8 Nov 2007 9:11:04</attribute>
+<attribute name="Modified" >8 Nov 2007 9:11:04</attribute>
+<attribute name="Name" >About me page / sidebar block</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Xpos" >16.5</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="id" >241</attribute>
+<item ID="3277357899" Creator="lmorchard" >
+<attribute name="WindowPlace" >Rect[ 50 50 550 400]</attribute>
+<attribute name="Created" >8 Nov 2007 9:11:38</attribute>
+<attribute name="Modified" >8 Nov 2007 9:11:38</attribute>
+<attribute name="Name" >Use hCard</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Xpos" >-4.5</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="id" >244</attribute>
+</item>
+</item>
+<item ID="3277571260" Creator="lmorchard" >
+<attribute name="WindowPlace" >Rect[ 50 50 550 400]</attribute>
+<attribute name="Created" >10 Nov 2007 20:27:39</attribute>
+<attribute name="Modified" >10 Nov 2007 20:27:39</attribute>
+<attribute name="Name" >Nav bar links by template?</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Xpos" >20</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="id" >302</attribute>
+</item>
+<item ID="3277357877" Creator="lmorchard" >
+<attribute name="WindowPlace" >Rect[ 50 50 550 400]</attribute>
+<attribute name="Created" >8 Nov 2007 9:11:16</attribute>
+<attribute name="Modified" >8 Nov 2007 9:11:16</attribute>
+<attribute name="Name" >Navigation links to pages in header</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Xpos" >20</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="id" >242</attribute>
+</item>
+<item ID="3277357886" Creator="lmorchard" >
+<attribute name="WindowPlace" >Rect[ 50 50 550 400]</attribute>
+<attribute name="Created" >8 Nov 2007 9:11:25</attribute>
+<attribute name="Modified" >8 Nov 2007 9:11:25</attribute>
+<attribute name="Name" >Sidebar for widgets and stuff</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Xpos" >23.5</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="id" >243</attribute>
+</item>
+<item ID="3277352023" Creator="lmorchard" >
+<attribute name="WindowPlace" >Rect[ 50 50 550 400]</attribute>
+<attribute name="Created" >8 Nov 2007 7:33:42</attribute>
+<attribute name="Modified" >8 Nov 2007 7:33:42</attribute>
+<attribute name="Name" >Disqus / Haloscan comments</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Xpos" >-1</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="id" >217</attribute>
+</item>
+<item ID="3277325374" Creator="lmorchard" >
+<attribute name="WindowPlace" >Rect[ 50 50 550 400]</attribute>
+<attribute name="Created" >8 Nov 2007 0:09:33</attribute>
+<attribute name="Modified" >8 Nov 2007 0:09:33</attribute>
+<attribute name="Name" >Microsummary</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Xpos" >-4.5</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="id" >208</attribute>
+</item>
+<item ID="3277325378" Creator="lmorchard" >
+<attribute name="WindowPlace" >Rect[ 50 50 550 400]</attribute>
+<attribute name="Created" >8 Nov 2007 0:09:37</attribute>
+<attribute name="Modified" >8 Nov 2007 0:09:37</attribute>
+<attribute name="Name" >OpenID delegation</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Xpos" >-1</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="id" >209</attribute>
+</item>
+<item ID="3277325480" Creator="lmorchard" >
+<attribute name="WindowPlace" >Rect[ 50 50 550 400]</attribute>
+<attribute name="Created" >8 Nov 2007 0:11:19</attribute>
+<attribute name="Modified" >8 Nov 2007 0:11:19</attribute>
+<attribute name="Name" >Calendar</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Height" >1</attribute>
+<attribute name="Width" >3</attribute>
+<attribute name="Xpos" >2.5</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="id" >212</attribute>
+</item>
+<item ID="3277325489" Creator="lmorchard" >
+<attribute name="WindowPlace" >Rect[ 50 50 550 400]</attribute>
+<attribute name="Created" >8 Nov 2007 0:11:28</attribute>
+<attribute name="Modified" >8 Nov 2007 0:11:28</attribute>
+<attribute name="Name" >Drop the Settings prototype, since it shows up in the list?</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Height" >1</attribute>
+<attribute name="Width" >3</attribute>
+<attribute name="Xpos" >6</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="id" >213</attribute>
+</item>
+<item ID="3277357598" Creator="lmorchard" >
+<attribute name="WindowPlace" >Rect[ 50 50 550 400]</attribute>
+<attribute name="Created" >8 Nov 2007 9:06:10</attribute>
+<attribute name="Modified" >8 Nov 2007 9:06:10</attribute>
+<attribute name="Name" >Do something sensible with dragged-in URLs</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Xpos" >9.5</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="id" >226</attribute>
+<item ID="3277357604" Creator="lmorchard" >
+<attribute name="WindowPlace" >Rect[ 50 50 550 400]</attribute>
+<attribute name="Created" >8 Nov 2007 9:06:31</attribute>
+<attribute name="Modified" >8 Nov 2007 9:06:31</attribute>
+<attribute name="Name" >reset prototype to bookmark, munge title?</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Xpos" >-4.5</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="id" >227</attribute>
+</item>
+<item ID="3277373329" Creator="lmorchard" >
+<attribute name="WindowPlace" >Rect[ 50 50 550 400]</attribute>
+<attribute name="Created" >8 Nov 2007 13:28:48</attribute>
+<attribute name="Modified" >8 Nov 2007 13:28:48</attribute>
+<attribute name="Name" >having trouble detecting a dragged-in link with OnAdd</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Xpos" >-1</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="id" >253</attribute>
+<item ID="3277373342" Creator="lmorchard" >
+<attribute name="WindowPlace" >Rect[ 50 50 550 400]</attribute>
+<attribute name="Created" >8 Nov 2007 13:29:01</attribute>
+<attribute name="Modified" >8 Nov 2007 13:29:01</attribute>
+<attribute name="Name" >ViewInBrowser=true, Badge=web, ...?</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Xpos" >-4.5</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="id" >254</attribute>
+</item>
+</item>
+</item>
+<item ID="3277373358" Creator="lmorchard" >
+<attribute name="WindowPlace" >Rect[ 50 50 550 400]</attribute>
+<attribute name="Created" >8 Nov 2007 13:29:17</attribute>
+<attribute name="Modified" >8 Nov 2007 13:29:17</attribute>
+<attribute name="Name" >Offline maintenance script</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Xpos" >16.5</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="id" >255</attribute>
+<item ID="3277357648" Creator="lmorchard" >
+<attribute name="WindowPlace" >Rect[ 50 50 550 400]</attribute>
+<attribute name="Created" >8 Nov 2007 9:07:27</attribute>
+<attribute name="Modified" >8 Nov 2007 9:07:27</attribute>
+<attribute name="Name" >Tinderbox Shell Tools?</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Xpos" >-4.5</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="id" >229</attribute>
+<item ID="3277357649" Creator="lmorchard" >
+<attribute name="WindowPlace" >Rect[ 50 50 550 400]</attribute>
+<attribute name="Created" >8 Nov 2007 9:07:28</attribute>
+<attribute name="Modified" >8 Nov 2007 9:07:28</attribute>
+<attribute name="Name" >http://users.ecs.soton.ac.uk/lac/tinderbox/</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Xpos" >-4.5</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="id" >230</attribute>
+</item>
+<item ID="3277357942" Creator="lmorchard" >
+<attribute name="WindowPlace" >Rect[ 50 50 550 400]</attribute>
+<attribute name="Created" >8 Nov 2007 9:12:21</attribute>
+<attribute name="Modified" >8 Nov 2007 9:12:21</attribute>
+<attribute name="Name" >http://maparent.ca/tinderbox/tindertoolbox.html</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Xpos" >-1</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="id" >245</attribute>
+</item>
+<item ID="3277357971" Creator="lmorchard" >
+<attribute name="WindowPlace" >Rect[ 50 50 550 400]</attribute>
+<attribute name="Created" >8 Nov 2007 9:12:50</attribute>
+<attribute name="Modified" >8 Nov 2007 9:12:50</attribute>
+<attribute name="Name" >http://www.maparent.ca/tinderbox/</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Xpos" >2.5</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="id" >246</attribute>
+</item>
+</item>
+<item ID="3277357626" Creator="lmorchard" >
+<attribute name="WindowPlace" >Rect[ 50 50 550 400]</attribute>
+<attribute name="Created" >8 Nov 2007 9:07:05</attribute>
+<attribute name="Modified" >8 Nov 2007 9:07:05</attribute>
+<attribute name="Name" >Support tag indexing</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Xpos" >13</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="id" >228</attribute>
+<item ID="3277357657" Creator="lmorchard" >
+<attribute name="WindowPlace" >Rect[ 50 50 550 400]</attribute>
+<attribute name="Created" >8 Nov 2007 9:07:36</attribute>
+<attribute name="Modified" >8 Nov 2007 9:07:36</attribute>
+<attribute name="Name" >Scan all Tag attribute sets</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Xpos" >-1</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="id" >231</attribute>
+</item>
+<item ID="3277357664" Creator="lmorchard" >
+<attribute name="WindowPlace" >Rect[ 50 50 550 400]</attribute>
+<attribute name="Created" >8 Nov 2007 9:07:43</attribute>
+<attribute name="Modified" >8 Nov 2007 9:07:43</attribute>
+<attribute name="Name" >Collect unique tags and counts</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Xpos" >2.5</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="id" >232</attribute>
+</item>
+<item ID="3277357677" Creator="lmorchard" >
+<attribute name="WindowPlace" >Rect[ 50 50 550 400]</attribute>
+<attribute name="Created" >8 Nov 2007 9:07:56</attribute>
+<attribute name="Modified" >8 Nov 2007 9:07:56</attribute>
+<attribute name="Name" >Update a set of Tag search agents for all tags found</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Xpos" >6</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="id" >233</attribute>
+</item>
+</item>
+<item ID="3277373385" Creator="lmorchard" >
+<attribute name="WindowPlace" >Rect[ 50 50 550 400]</attribute>
+<attribute name="Created" >8 Nov 2007 13:29:44</attribute>
+<attribute name="Modified" >8 Nov 2007 13:29:44</attribute>
+<attribute name="Name" >RSS / Atom feed fetching</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Xpos" >16.5</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="id" >256</attribute>
+<item ID="3277373414" Creator="lmorchard" >
+<attribute name="WindowPlace" >Rect[ 50 50 550 400]</attribute>
+<attribute name="Created" >8 Nov 2007 13:30:13</attribute>
+<attribute name="Modified" >8 Nov 2007 13:30:13</attribute>
+<attribute name="Name" >Fetch feed items, translate into new tinderbox items</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Xpos" >-1</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="id" >258</attribute>
+</item>
+<item ID="3277373421" Creator="lmorchard" >
+<attribute name="WindowPlace" >Rect[ 50 50 550 400]</attribute>
+<attribute name="Created" >8 Nov 2007 13:30:20</attribute>
+<attribute name="Modified" >8 Nov 2007 13:30:20</attribute>
+<attribute name="Name" >Parent item URL attribute is the feed URL</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Xpos" >2.5</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="id" >259</attribute>
+</item>
+</item>
+<item ID="3277373447" Creator="lmorchard" >
+<attribute name="WindowPlace" >Rect[ 50 50 550 400]</attribute>
+<attribute name="Created" >8 Nov 2007 13:30:46</attribute>
+<attribute name="Modified" >8 Nov 2007 13:30:46</attribute>
+<attribute name="Name" >Periodic tbx file backups</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Xpos" >20</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="id" >260</attribute>
+</item>
+<item ID="3277373461" Creator="lmorchard" >
+<attribute name="WindowPlace" >Rect[ 50 50 550 400]</attribute>
+<attribute name="Created" >8 Nov 2007 13:31:00</attribute>
+<attribute name="Modified" >8 Nov 2007 13:31:00</attribute>
+<attribute name="Name" >rsync support to upload to website</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Xpos" >23.5</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="id" >261</attribute>
+</item>
+</item>
+</item>
+<item ID="3277325396" Creator="lmorchard" >
+<attribute name="WindowPlace" >Rect[ 50 50 750 350]</attribute>
+<attribute name="Created" >8 Nov 2007 0:09:55</attribute>
+<attribute name="Modified" >8 Nov 2007 0:09:55</attribute>
+<attribute name="Name" >Bugs</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Xpos" >5</attribute>
+<attribute name="Ypos" >-0.5</attribute>
+<attribute name="id" >210</attribute>
+<item ID="3277357110" Creator="lmorchard" >
+<attribute name="WindowPlace" >Rect[ 50 50 550 400]</attribute>
+<attribute name="Created" >8 Nov 2007 8:58:29</attribute>
+<attribute name="Modified" >8 Nov 2007 8:58:29</attribute>
+<attribute name="Name" >HTML escaping in entry-code export seems wonky</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Xpos" >-4.5</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="id" >224</attribute>
+</item>
+</item>
+<item ID="3277356380" Creator="lmorchard" >
+<attribute name="WindowPlace" >Rect[ 755 152 1305 571]</attribute>
+<attribute name="Created" >8 Nov 2007 8:46:19</attribute>
+<attribute name="Modified" >8 Nov 2007 9:09:05</attribute>
+<attribute name="Name" >Credits</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Height" >1</attribute>
+<attribute name="Width" >3</attribute>
+<attribute name="Xpos" >12</attribute>
+<attribute name="Ypos" >-0.5</attribute>
+<attribute name="id" >223</attribute>
+<text >Here are some quick notes on where some of the things used in this tumblelog came from:
+</text>
+<styles >
+ <tstyle font="Lucida Grande" bold="0" italic="0" underline="0" start="0" size="13" height="16" ascent="13" color="#000000"  />
+</styles>
+<item ID="3277357711" Creator="lmorchard" >
+<attribute name="WindowPlace" >Rect[ 50 50 550 400]</attribute>
+<attribute name="Created" >8 Nov 2007 9:08:30</attribute>
+<attribute name="Modified" >8 Nov 2007 9:08:30</attribute>
+<attribute name="Name" >Syntax Highlighting</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Xpos" >-4.5</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="id" >234</attribute>
+<item ID="3277357721" Creator="lmorchard" >
+<attribute name="WindowPlace" >Rect[ 50 50 550 400]</attribute>
+<attribute name="Created" >8 Nov 2007 9:08:40</attribute>
+<attribute name="Modified" >8 Nov 2007 9:08:40</attribute>
+<attribute name="Name" >http://code.google.com/p/syntaxhighlighter/</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Xpos" >-4.5</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="id" >236</attribute>
+</item>
+</item>
+<item ID="3277357715" Creator="lmorchard" >
+<attribute name="WindowPlace" >Rect[ 50 50 550 400]</attribute>
+<attribute name="Created" >8 Nov 2007 9:08:34</attribute>
+<attribute name="Modified" >8 Nov 2007 9:08:34</attribute>
+<attribute name="Name" >Inline MP3 Player</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Xpos" >-1</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="id" >235</attribute>
+<item ID="3277357728" Creator="lmorchard" >
+<attribute name="WindowPlace" >Rect[ 50 50 550 400]</attribute>
+<attribute name="Created" >8 Nov 2007 9:08:47</attribute>
+<attribute name="Modified" >8 Nov 2007 9:08:47</attribute>
+<attribute name="Name" >http://www.1pixelout.net/code/audio-player-wordpress-plugin/?cp=50</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Xpos" >-4.5</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="id" >237</attribute>
+</item>
+</item>
+<item ID="3277375134" Creator="lmorchard" >
+<attribute name="WindowPlace" >Rect[ 50 50 550 400]</attribute>
+<attribute name="Created" >8 Nov 2007 13:58:53</attribute>
+<attribute name="Modified" >8 Nov 2007 13:58:53</attribute>
+<attribute name="Name" >Developpers icons</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Xpos" >2.5</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="id" >262</attribute>
+<item ID="3277375138" Creator="lmorchard" >
+<attribute name="WindowPlace" >Rect[ 50 50 550 400]</attribute>
+<attribute name="Created" >8 Nov 2007 13:58:57</attribute>
+<attribute name="Modified" >8 Nov 2007 13:58:57</attribute>
+<attribute name="Name" > http://sekkyumu.deviantart.com/art/Developpers-Icons-63052312</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Xpos" >-4.5</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="id" >263</attribute>
+</item>
+</item>
+<item ID="3277411789" Creator="lmorchard" >
+<attribute name="WindowPlace" >Rect[ 50 50 550 400]</attribute>
+<attribute name="Created" >9 Nov 2007 0:09:48</attribute>
+<attribute name="Modified" >9 Nov 2007 0:09:48</attribute>
+<attribute name="Name" >Background images</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Height" >1</attribute>
+<attribute name="Width" >3</attribute>
+<attribute name="Xpos" >6</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="id" >268</attribute>
+<item ID="3277411829" Creator="lmorchard" >
+<attribute name="WindowPlace" >Rect[ 50 50 550 400]</attribute>
+<attribute name="Created" >9 Nov 2007 0:10:28</attribute>
+<attribute name="Modified" >9 Nov 2007 0:10:28</attribute>
+<attribute name="Name" >http://k10k.net/_img/pixelpatterns/tiles/pat_20070204035041.gif</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Xpos" >-4.5</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="id" >270</attribute>
+</item>
+<item ID="3277411966" Creator="lmorchard" >
+<attribute name="WindowPlace" >Rect[ 50 50 550 400]</attribute>
+<attribute name="Created" >9 Nov 2007 0:12:45</attribute>
+<attribute name="Modified" >9 Nov 2007 0:12:45</attribute>
+<attribute name="Name" >http://k10k.net/_img/pixelpatterns/tiles/pat_20060925082517.gif</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Xpos" >-1</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="id" >271</attribute>
+</item>
+</item>
+</item>
+<item ID="3277325418" Creator="lmorchard" >
+<attribute name="WindowPlace" >Rect[ 50 50 750 350]</attribute>
+<attribute name="Created" >8 Nov 2007 0:10:17</attribute>
+<attribute name="Modified" >8 Nov 2007 0:10:17</attribute>
+<attribute name="Name" >ChangeLog</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Height" >1</attribute>
+<attribute name="Width" >3</attribute>
+<attribute name="Xpos" >8.5</attribute>
+<attribute name="Ypos" >-0.5</attribute>
+<attribute name="id" >211</attribute>
+<item ID="3277357788" Creator="lmorchard" >
+<attribute name="WindowPlace" >Rect[ 50 50 550 400]</attribute>
+<attribute name="Created" >8 Nov 2007 9:09:47</attribute>
+<attribute name="Modified" >8 Nov 2007 9:09:47</attribute>
+<attribute name="Name" >v0.0</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Xpos" >-4.5</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="id" >238</attribute>
+<item ID="3277357807" Creator="lmorchard" >
+<attribute name="WindowPlace" >Rect[ 50 50 550 400]</attribute>
+<attribute name="Created" >8 Nov 2007 9:10:06</attribute>
+<attribute name="Modified" >8 Nov 2007 9:10:06</attribute>
+<attribute name="Name" >Initial release of semi-working code</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Xpos" >-4.5</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="id" >240</attribute>
+</item>
+</item>
+<item ID="3277357791" Creator="lmorchard" >
+<attribute name="WindowPlace" >Rect[ 50 50 550 400]</attribute>
+<attribute name="Created" >8 Nov 2007 9:09:50</attribute>
+<attribute name="Modified" >8 Nov 2007 9:09:50</attribute>
+<attribute name="Name" >v0.1</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Xpos" >-1</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="id" >239</attribute>
+</item>
+</item>
+</item>
+<item ID="3277319149" Creator="lmorchard" >
+<attribute name="WindowPlace" >Rect[ 50 50 750 350]</attribute>
+<attribute name="Created" >7 Nov 2007 22:08:27</attribute>
+<attribute name="Modified" >7 Nov 2007 22:08:27</attribute>
+<attribute name="Name" >internals</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Separator" >true</attribute>
+<attribute name="Xpos" >-2</attribute>
+<attribute name="Ypos" >5.5</attribute>
+<attribute name="HTMLDontExport" >true</attribute>
+<attribute name="HTMLExportChildren" >false</attribute>
+<attribute name="id" >187</attribute>
+<item ID="3277285162" Creator="lmorchard" >
+<attribute name="WindowPlace" >Rect[ 50 50 750 350]</attribute>
+<attribute name="Created" >7 Nov 2007 11:43:26</attribute>
+<attribute name="Modified" >7 Nov 2007 11:43:26</attribute>
+<attribute name="Name" >_system</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Xpos" >2</attribute>
+<attribute name="Ypos" >5.5</attribute>
+<attribute name="Badge" >warning</attribute>
+<attribute name="HTMLDontExport" >true</attribute>
+<attribute name="HTMLExportChildren" >false</attribute>
+<attribute name="id" >71</attribute>
+<item ID="3277302639" Creator="lmorchard" >
+<attribute name="Created" >7 Nov 2007 17:50:38</attribute>
+<attribute name="Modified" >9 Nov 2007 8:26:05</attribute>
+<attribute name="Name" >agents</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Xpos" >13</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="id" >167</attribute>
+<agent ID="3277302704" Creator="lmorchard" >
+<attribute name="AgentQuery" >IsEntry=true&amp;#descendedFrom(Archives)</attribute>
+<attribute name="Agent" >true</attribute>
+<attribute name="WindowPlace" >Rect[ 50 50 750 350]</attribute>
+<attribute name="Created" >7 Nov 2007 17:51:43</attribute>
+<attribute name="Modified" >7 Nov 2007 17:51:43</attribute>
+<attribute name="Name" >@allArchivedEntries</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Height" >3</attribute>
+<attribute name="Width" >3</attribute>
+<attribute name="Xpos" >16.5</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="Badge" >person</attribute>
+<attribute name="HTMLExportChildren" >false</attribute>
+<attribute name="id" >168</attribute>
+</agent>
+<agent ID="3277480882" Creator="lmorchard" >
+<attribute name="AgentQuery" >IsDay=true&amp;#descendedFrom(Archives)</attribute>
+<attribute name="Agent" >true</attribute>
+<attribute name="WindowPlace" >Rect[ 50 50 550 400]</attribute>
+<attribute name="Created" >9 Nov 2007 19:21:21</attribute>
+<attribute name="Modified" >9 Nov 2007 19:21:21</attribute>
+<attribute name="Name" >@allArchivedDays</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Height" >3</attribute>
+<attribute name="Width" >3</attribute>
+<attribute name="Xpos" >20</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="Badge" >person</attribute>
+<attribute name="Sort" >Created</attribute>
+<attribute name="HTMLExportChildren" >false</attribute>
+<attribute name="id" >288</attribute>
+</agent>
+<agent ID="3277574128" Creator="lmorchard" >
+<attribute name="AgentQuery" >IsMonth=true&amp;#descendedFrom(Archives)</attribute>
+<attribute name="Agent" >true</attribute>
+<attribute name="WindowPlace" >Rect[ 50 50 550 400]</attribute>
+<attribute name="Created" >10 Nov 2007 21:15:27</attribute>
+<attribute name="Modified" >10 Nov 2007 21:15:27</attribute>
+<attribute name="Name" >@allArchivedMonths</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Height" >3</attribute>
+<attribute name="Width" >3</attribute>
+<attribute name="Xpos" >23.5</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="Badge" >person</attribute>
+<attribute name="HTMLExportChildren" >false</attribute>
+<attribute name="id" >321</attribute>
+</agent>
+<agent ID="3277578373" Creator="lmorchard" >
+<attribute name="AgentQuery" >IsPrototype=false &amp; IsPage=true</attribute>
+<attribute name="Agent" >true</attribute>
+<attribute name="WindowPlace" >Rect[ 50 50 550 400]</attribute>
+<attribute name="Created" >10 Nov 2007 22:26:12</attribute>
+<attribute name="Modified" >10 Nov 2007 22:26:12</attribute>
+<attribute name="Name" >@allPages</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Height" >3</attribute>
+<attribute name="Width" >3</attribute>
+<attribute name="Xpos" >27</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="Badge" >person</attribute>
+<attribute name="HTMLExportChildren" >false</attribute>
+<attribute name="id" >326</attribute>
+</agent>
+</item>
+<item ID="3277234591" Creator="system" >
+<attribute name="Created" >6 Nov 2007 22:56:30</attribute>
+<attribute name="Modified" >9 Nov 2007 8:26:01</attribute>
+<attribute name="Name" >prototypes</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Color" >magenta</attribute>
+<attribute name="Xpos" >-1</attribute>
+<attribute name="Ypos" >0</attribute>
+<item ID="3277297198" Creator="lmorchard" >
+<attribute name="Created" >7 Nov 2007 16:18:53</attribute>
+<attribute name="Modified" >9 Nov 2007 8:25:33</attribute>
+<attribute name="Name" >entry types</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Height" >1</attribute>
+<attribute name="Width" >3</attribute>
+<attribute name="Xpos" >2.5</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="id" >82</attribute>
+<item ID="3277285161" Creator="lmorchard" >
+<attribute name="WindowPlace" >Rect[ 414 102 1025 816]</attribute>
+<attribute name="Created" >7 Nov 2007 11:42:46</attribute>
+<attribute name="Modified" >7 Nov 2007 11:42:46</attribute>
+<attribute name="Name" >*essay</attribute>
+<attribute name="OnAdd" >Prototype=&apos;&apos;</attribute>
+<attribute name="IsPrototype" >true</attribute>
+<attribute name="Xpos" >0</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="TextSidebar" >false</attribute>
+<attribute name="ItemClass" >entry-essay</attribute>
+<attribute name="id" >70</attribute>
+</item>
+<item ID="3277240021" Creator="lmorchard" >
+<attribute name="WindowPlace" >Rect[ 601 346 1002 521]</attribute>
+<attribute name="Created" >7 Nov 2007 0:27:00</attribute>
+<attribute name="Modified" >7 Nov 2007 23:21:58</attribute>
+<attribute name="Name" >*aside</attribute>
+<attribute name="IsPrototype" >true</attribute>
+<attribute name="Xpos" >-1</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="Badge" >arrow right</attribute>
+<attribute name="TextSidebar" >false</attribute>
+<attribute name="ItemClass" >entry-aside</attribute>
+<attribute name="id" >64</attribute>
+</item>
+<item ID="3277441284" Creator="lmorchard" >
+<attribute name="WindowPlace" >Rect[ 50 50 550 400]</attribute>
+<attribute name="Created" >9 Nov 2007 8:21:23</attribute>
+<attribute name="Modified" >9 Nov 2007 8:25:27</attribute>
+<attribute name="Name" >*notion</attribute>
+<attribute name="IsPrototype" >true</attribute>
+<attribute name="Height" >1</attribute>
+<attribute name="Width" >3</attribute>
+<attribute name="Xpos" >2.5</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="Badge" >information</attribute>
+<attribute name="ItemClass" >entry-notion</attribute>
+<attribute name="id" >272</attribute>
+</item>
+<item ID="3277240015" Creator="lmorchard" >
+<attribute name="WindowPlace" >Rect[ 568 277 1024 515]</attribute>
+<attribute name="Created" >7 Nov 2007 0:26:54</attribute>
+<attribute name="Modified" >7 Nov 2007 0:26:54</attribute>
+<attribute name="Name" >*quote</attribute>
+<attribute name="IsPrototype" >true</attribute>
+<attribute name="Xpos" >-4.5</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="Badge" >chat</attribute>
+<attribute name="KeyAttributes" >URL;Tags</attribute>
+<attribute name="TextSidebar" >false</attribute>
+<attribute name="HTMLEntities" >false</attribute>
+<attribute name="ItemClass" >entry-quote</attribute>
+<attribute name="id" >63</attribute>
+</item>
+<item ID="3277325490" Creator="lmorchard" >
+<attribute name="WindowPlace" >Rect[ 568 277 1024 515]</attribute>
+<attribute name="Created" >7 Nov 2007 0:26:54</attribute>
+<attribute name="Modified" >8 Nov 2007 9:00:06</attribute>
+<attribute name="Name" >*chat</attribute>
+<attribute name="IsPrototype" >true</attribute>
+<attribute name="Xpos" >-1</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="Badge" >people</attribute>
+<attribute name="KeyAttributes" >Tags;URL</attribute>
+<attribute name="TextSidebar" >false</attribute>
+<attribute name="ItemClass" >entry-chat</attribute>
+<attribute name="id" >214</attribute>
+</item>
+<item ID="3277240034" Creator="lmorchard" >
+<attribute name="WindowPlace" >Rect[ 545 331 1023 502]</attribute>
+<attribute name="Created" >7 Nov 2007 0:27:13</attribute>
+<attribute name="Modified" >7 Nov 2007 0:27:13</attribute>
+<attribute name="Name" >*bookmark</attribute>
+<attribute name="IsPrototype" >true</attribute>
+<attribute name="Xpos" >2.5</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="Badge" >paperclip</attribute>
+<attribute name="KeyAttributes" >URL;Tags</attribute>
+<attribute name="TextSidebar" >false</attribute>
+<attribute name="ItemClass" >entry-bookmark</attribute>
+<attribute name="id" >65</attribute>
+</item>
+<item ID="3277240108" Creator="lmorchard" >
+<attribute name="WindowPlace" >Rect[ 50 50 750 350]</attribute>
+<attribute name="Created" >7 Nov 2007 0:28:27</attribute>
+<attribute name="Modified" >7 Nov 2007 0:28:27</attribute>
+<attribute name="Name" >*image</attribute>
+<attribute name="IsPrototype" >true</attribute>
+<attribute name="Xpos" >6</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="Badge" >picture</attribute>
+<attribute name="KeyAttributes" >URL;ImageURL;Tags</attribute>
+<attribute name="TextSidebar" >false</attribute>
+<attribute name="ItemClass" >entry-image</attribute>
+<attribute name="id" >68</attribute>
+</item>
+<item ID="3277240133" Creator="lmorchard" >
+<attribute name="WindowPlace" >Rect[ 50 50 750 350]</attribute>
+<attribute name="Created" >7 Nov 2007 0:28:52</attribute>
+<attribute name="Modified" >7 Nov 2007 0:28:52</attribute>
+<attribute name="Name" >*code</attribute>
+<attribute name="IsPrototype" >true</attribute>
+<attribute name="Xpos" >9.5</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="Badge" >database</attribute>
+<attribute name="KeyAttributes" >CodeLanguage;Tags</attribute>
+<attribute name="TextSidebar" >false</attribute>
+<attribute name="HTMLMarkupText" >false</attribute>
+<attribute name="HTMLQuoteHTML" >true</attribute>
+<attribute name="ItemClass" >entry-code</attribute>
+<attribute name="id" >69</attribute>
+</item>
+<item ID="3277240073" Creator="lmorchard" >
+<attribute name="WindowPlace" >Rect[ 50 50 750 350]</attribute>
+<attribute name="Created" >7 Nov 2007 0:27:52</attribute>
+<attribute name="Modified" >7 Nov 2007 0:27:52</attribute>
+<attribute name="Name" >*video</attribute>
+<attribute name="IsPrototype" >true</attribute>
+<attribute name="Xpos" >6</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="Badge" >star</attribute>
+<attribute name="KeyAttributes" >URL;Tags</attribute>
+<attribute name="TextSidebar" >false</attribute>
+<attribute name="ItemClass" >entry-video</attribute>
+<attribute name="id" >66</attribute>
+</item>
+<item ID="3277240079" Creator="lmorchard" >
+<attribute name="WindowPlace" >Rect[ 50 50 639 423]</attribute>
+<attribute name="Created" >7 Nov 2007 0:27:58</attribute>
+<attribute name="Modified" >7 Nov 2007 0:27:58</attribute>
+<attribute name="Name" >*audio</attribute>
+<attribute name="IsPrototype" >true</attribute>
+<attribute name="Xpos" >9.5</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="Badge" >music</attribute>
+<attribute name="KeyAttributes" >URL;Tags</attribute>
+<attribute name="TextSidebar" >false</attribute>
+<attribute name="ItemClass" >entry-audio</attribute>
+<attribute name="id" >67</attribute>
+</item>
+</item>
+<item ID="3277297359" Creator="lmorchard" >
+<attribute name="WindowPlace" >Rect[ 50 50 750 350]</attribute>
+<attribute name="Created" >7 Nov 2007 16:22:38</attribute>
+<attribute name="Modified" >9 Nov 2007 8:25:22</attribute>
+<attribute name="Name" >*folder</attribute>
+<attribute name="IsPrototype" >true</attribute>
+<attribute name="Height" >1</attribute>
+<attribute name="Width" >3</attribute>
+<attribute name="Xpos" >16.5</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="Badge" >folder</attribute>
+<attribute name="HTMLExportTemplate" >Macintosh HD:Users:lorchard:devel:trunk:recaffinated:templates:entry.html</attribute>
+<attribute name="HTMLDontExport" >true</attribute>
+<attribute name="id" >83</attribute>
+</item>
+<item ID="3277291756" Creator="lmorchard" >
+<attribute name="WindowPlace" >Rect[ 432 216 944 705]</attribute>
+<attribute name="Created" >7 Nov 2007 14:49:15</attribute>
+<attribute name="Modified" >9 Nov 2007 8:25:14</attribute>
+<attribute name="Name" >*entry</attribute>
+<attribute name="IsPrototype" >true</attribute>
+<attribute name="Color" >green</attribute>
+<attribute name="Xpos" >13</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="Badge" >memo</attribute>
+<attribute name="KeyAttributes" >Tags</attribute>
+<attribute name="TextSidebar" >true</attribute>
+<attribute name="HTMLExportTemplate" >Macintosh HD:Users:lorchard:devel:trunk:recaffinated:templates:entry.html</attribute>
+<attribute name="HTMLExportChildren" >false</attribute>
+<attribute name="BaseUrl" >../../../../</attribute>
+<attribute name="IsEntry" >true</attribute>
+<attribute name="id" >72</attribute>
+</item>
+<item ID="3277325328" Creator="lmorchard" >
+<attribute name="WindowPlace" >Rect[ 50 50 550 400]</attribute>
+<attribute name="Created" >8 Nov 2007 0:08:47</attribute>
+<attribute name="Modified" >8 Nov 2007 0:08:47</attribute>
+<attribute name="Name" >*doc</attribute>
+<attribute name="IsPrototype" >true</attribute>
+<attribute name="Xpos" >16.5</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="Badge" >document</attribute>
+<attribute name="id" >207</attribute>
+</item>
+<item ID="3277577955" Creator="lmorchard" >
+<attribute name="WindowPlace" >Rect[ 50 50 550 400]</attribute>
+<attribute name="Created" >10 Nov 2007 22:19:14</attribute>
+<attribute name="Modified" >10 Nov 2007 22:19:14</attribute>
+<attribute name="Name" >*page</attribute>
+<attribute name="OnAdd" >Prototype=&apos;&apos;</attribute>
+<attribute name="IsPrototype" >true</attribute>
+<attribute name="Xpos" >20</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="Badge" >document</attribute>
+<attribute name="HTMLExportChildren" >false</attribute>
+<attribute name="IsPage" >true</attribute>
+<attribute name="id" >322</attribute>
+</item>
+</item>
+<item ID="3277299004" Creator="lmorchard" >
+<attribute name="Created" >7 Nov 2007 16:32:42</attribute>
+<attribute name="Modified" >7 Nov 2007 16:32:42</attribute>
+<attribute name="Name" >magic folders</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Height" >1</attribute>
+<attribute name="Width" >3</attribute>
+<attribute name="Xpos" >20</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="id" >87</attribute>
+<item ID="3277299754" Creator="lmorchard" >
+<attribute name="WindowPlace" >Rect[ 50 50 750 350]</attribute>
+<attribute name="Created" >7 Nov 2007 17:02:33</attribute>
+<attribute name="Modified" >7 Nov 2007 17:02:33</attribute>
+<attribute name="Name" >*archivesFolder</attribute>
+<attribute name="OnAdd" >Prototype=*entryYearFolder;if (Name=untitled) { Name=^get(Created,y)^; }</attribute>
+<attribute name="IsPrototype" >true</attribute>
+<attribute name="Xpos" >6</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="Badge" >folder</attribute>
+<attribute name="id" >149</attribute>
+</item>
+<item ID="3277299005" Creator="lmorchard" >
+<attribute name="WindowPlace" >Rect[ 50 50 750 350]</attribute>
+<attribute name="Created" >7 Nov 2007 16:32:53</attribute>
+<attribute name="Modified" >7 Nov 2007 16:32:53</attribute>
+<attribute name="Name" >*entryYearFolder</attribute>
+<attribute name="OnAdd" >Prototype=*entryMonthFolder;if (Name=untitled) { Name=^get(Created,M0)^ }</attribute>
+<attribute name="IsPrototype" >true</attribute>
+<attribute name="Color" >black</attribute>
+<attribute name="Height" >1</attribute>
+<attribute name="Width" >3</attribute>
+<attribute name="Xpos" >-4.5</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="Badge" >calendar</attribute>
+<attribute name="HTMLExportTemplate" >Macintosh HD:Users:lorchard:devel:trunk:recaffinated:templates:index-year.html</attribute>
+<attribute name="BaseUrl" >../</attribute>
+<attribute name="id" >88</attribute>
+</item>
+<item ID="3277299006" Creator="lmorchard" >
+<attribute name="WindowPlace" >Rect[ 50 50 750 350]</attribute>
+<attribute name="Created" >7 Nov 2007 16:34:51</attribute>
+<attribute name="Modified" >9 Nov 2007 8:25:53</attribute>
+<attribute name="Name" >*entryMonthFolder</attribute>
+<attribute name="OnAdd" >Prototype=*entryDayFolder;if (Name=untitled) { Name=^get(Created,D)^ }</attribute>
+<attribute name="IsPrototype" >true</attribute>
+<attribute name="Color" >warm gray</attribute>
+<attribute name="Xpos" >-1</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="Badge" >calendar</attribute>
+<attribute name="HTMLExportTemplate" >Macintosh HD:Users:lorchard:devel:trunk:recaffinated:templates:index-month.html</attribute>
+<attribute name="BaseUrl" >../../</attribute>
+<attribute name="IsMonth" >true</attribute>
+<attribute name="id" >89</attribute>
+</item>
+<item ID="3277299011" Creator="lmorchard" >
+<attribute name="WindowPlace" >Rect[ 50 50 750 350]</attribute>
+<attribute name="Created" >7 Nov 2007 16:40:50</attribute>
+<attribute name="Modified" >9 Nov 2007 8:25:49</attribute>
+<attribute name="Name" >*entryDayFolder</attribute>
+<attribute name="OnAdd" >if (!Prototype){ Prototype=*aside };if (Name=untitled) { Name=^get(id)^ }; if (^get(ViewInBrowser)^) { Prototype=*bookmark; Badge=&apos;&apos;}</attribute>
+<attribute name="IsPrototype" >true</attribute>
+<attribute name="Color" >cool gray</attribute>
+<attribute name="Xpos" >2.5</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="Badge" >calendar</attribute>
+<attribute name="HTMLExportTemplate" >Macintosh HD:Users:lorchard:devel:trunk:recaffinated:templates:index-date.html</attribute>
+<attribute name="BaseUrl" >../../../</attribute>
+<attribute name="IsDay" >true</attribute>
+<attribute name="id" >94</attribute>
+</item>
+</item>
+<item ID="3277238752" Creator="lmorchard" >
+<attribute name="WindowPlace" >Rect[ 423 96 953 567]</attribute>
+<attribute name="Created" >7 Nov 2007 0:04:49</attribute>
+<attribute name="Modified" >9 Nov 2007 8:25:57</attribute>
+<attribute name="Name" >shared export resources</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Color" >magenta</attribute>
+<attribute name="Xpos" >9.5</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="HTMLExportChildren" >false</attribute>
+<attribute name="id" >60</attribute>
+<item ID="3277238753" Creator="lmorchard" >
+<attribute name="WindowPlace" >Rect[ 50 50 750 350]</attribute>
+<attribute name="Created" >7 Nov 2007 0:04:54</attribute>
+<attribute name="Modified" >7 Nov 2007 0:04:59</attribute>
+<attribute name="Name" >page-header</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Xpos" >-4.5</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="Badge" >document</attribute>
+<attribute name="HTMLDontExport" >false</attribute>
+<attribute name="id" >61</attribute>
+<text >WHeeeeeee</text>
+<styles >
+ <tstyle font="Lucida Grande" bold="0" italic="0" underline="0" start="0" size="12" height="15" ascent="12" color="#000000"  />
+</styles>
+</item>
+<item ID="3277239248" Creator="lmorchard" >
+<attribute name="WindowPlace" >Rect[ 50 50 750 350]</attribute>
+<attribute name="Created" >7 Nov 2007 0:14:07</attribute>
+<attribute name="Modified" >7 Nov 2007 0:14:07</attribute>
+<attribute name="Name" >page-footer</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Xpos" >-1</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="Badge" >document</attribute>
+<attribute name="HTMLDontExport" >false</attribute>
+<attribute name="id" >62</attribute>
+<text >
+</text>
+<styles >
+ <tstyle font="Lucida Grande" bold="0" italic="0" underline="0" start="0" size="12" height="15" ascent="12" color="#000000"  />
+</styles>
+</item>
+</item>
+</item>
+</item>
+</item>
+<links >
+<link name="prototype" sourceid="3277291756" sourcecreator="lmorchard" sstart="-1" slen="0" style="0" destid="3277285161" destcreator="lmorchard"  />
+<link name="prototype" sourceid="3277291756" sourcecreator="lmorchard" sstart="-1" slen="0" style="0" destid="3277240015" destcreator="lmorchard"  />
+<link name="prototype" sourceid="3277291756" sourcecreator="lmorchard" sstart="-1" slen="0" style="0" destid="3277240034" destcreator="lmorchard"  />
+<link name="prototype" sourceid="3277291756" sourcecreator="lmorchard" sstart="-1" slen="0" style="0" destid="3277240108" destcreator="lmorchard"  />
+<link name="prototype" sourceid="3277291756" sourcecreator="lmorchard" sstart="-1" slen="0" style="0" destid="3277240133" destcreator="lmorchard"  />
+<link name="prototype" sourceid="3277291756" sourcecreator="lmorchard" sstart="-1" slen="0" style="0" destid="3277240073" destcreator="lmorchard"  />
+<link name="prototype" sourceid="3277291756" sourcecreator="lmorchard" sstart="-1" slen="0" style="0" destid="3277240079" destcreator="lmorchard"  />
+<link name="prototype" sourceid="3277291756" sourcecreator="lmorchard" sstart="-1" slen="0" style="0" destid="3277240021" destcreator="lmorchard"  />
+<link name="prototype" sourceid="3277297359" sourcecreator="lmorchard" sstart="-1" slen="0" style="0" destid="3277299004" destcreator="lmorchard"  />
+<link name="prototype" sourceid="3277299754" sourcecreator="lmorchard" sstart="-1" slen="0" style="0" destid="3277237197" destcreator="lmorchard"  />
+<link name="prototype" sourceid="3277299754" sourcecreator="lmorchard" sstart="-1" slen="0" style="0" destid="3277297197" destcreator="lmorchard"  />
+<link name="prototype" sourceid="3277319633" sourcecreator="lmorchard" sstart="-1" slen="0" style="0" destid="3277238753" destcreator="lmorchard"  />
+<link name="prototype" sourceid="3277319633" sourcecreator="lmorchard" sstart="-1" slen="0" style="0" destid="3277239248" destcreator="lmorchard"  />
+<link name="prototype" sourceid="3277297359" sourcecreator="lmorchard" sstart="-1" slen="0" style="0" destid="3277238752" destcreator="lmorchard"  />
+<link name="prototype" sourceid="3277297359" sourcecreator="lmorchard" sstart="-1" slen="0" style="0" destid="3277302639" destcreator="lmorchard"  />
+<link name="prototype" sourceid="3277297359" sourcecreator="lmorchard" sstart="-1" slen="0" style="0" destid="3277234591" destcreator="system"  />
+<link name="prototype" sourceid="3277325328" sourcecreator="lmorchard" sstart="-1" slen="0" style="0" destid="3277234579" destcreator="system"  />
+<link name="prototype" sourceid="3277325328" sourcecreator="lmorchard" sstart="-1" slen="0" style="0" destid="3277325277" destcreator="lmorchard"  />
+<link name="prototype" sourceid="3277325328" sourcecreator="lmorchard" sstart="-1" slen="0" style="0" destid="3277325396" destcreator="lmorchard"  />
+<link name="prototype" sourceid="3277325328" sourcecreator="lmorchard" sstart="-1" slen="0" style="0" destid="3277325418" destcreator="lmorchard"  />
+<link name="prototype" sourceid="3277297359" sourcecreator="lmorchard" sstart="-1" slen="0" style="0" destid="3277297198" destcreator="lmorchard"  />
+<link name="prototype" sourceid="3277291756" sourcecreator="lmorchard" sstart="-1" slen="0" style="0" destid="3277325490" destcreator="lmorchard"  />
+<link name="prototype" sourceid="3277325328" sourcecreator="lmorchard" sstart="-1" slen="0" style="0" destid="3277356380" destcreator="lmorchard"  />
+<link name="prototype" sourceid="3277291756" sourcecreator="lmorchard" sstart="-1" slen="0" style="0" destid="3277441284" destcreator="lmorchard"  />
+<link name="prototype" sourceid="3277577955" sourcecreator="lmorchard" sstart="-1" slen="0" style="0" destid="3277578110" destcreator="lmorchard"  />
+<link name="prototype" sourceid="3277299005" sourcecreator="lmorchard" sstart="-1" slen="0" style="0" destid="3277579747" destcreator="lmorchard"  />
+<link name="prototype" sourceid="3277299006" sourcecreator="lmorchard" sstart="-1" slen="0" style="0" destid="3277579748" destcreator="lmorchard"  />
+<link name="prototype" sourceid="3277299011" sourcecreator="lmorchard" sstart="-1" slen="0" style="0" destid="3277579749" destcreator="lmorchard"  />
+<link name="prototype" sourceid="3277240021" sourcecreator="lmorchard" sstart="-1" slen="0" style="0" destid="3277579756" destcreator="lmorchard"  />
+<link name="*untitled" sourceid="3277579756" sourcecreator="lmorchard" sstart="70" slen="18" style="0" destid="3277234544" destcreator="system" URL="http://eastgate.com/Tinderbox/"  />
+<link name="*untitled" sourceid="3277579756" sourcecreator="lmorchard" sstart="488" slen="11" style="0" destid="3277234544" destcreator="system" URL="http://support.opml.org/"  />
+<link name="prototype" sourceid="3277240021" sourcecreator="lmorchard" sstart="-1" slen="0" style="0" destid="3277580951" destcreator="lmorchard"  />
+<link name="prototype" sourceid="3277240021" sourcecreator="lmorchard" sstart="-1" slen="0" style="0" destid="3277580952" destcreator="lmorchard"  />
+<link name="prototype" sourceid="3277240079" sourcecreator="lmorchard" sstart="-1" slen="0" style="0" destid="3277580953" destcreator="lmorchard"  />
+<link name="*untitled" sourceid="3277581162" sourcecreator="lmorchard" sstart="319" slen="30" style="0" destid="3277234544" destcreator="system" URL="http://decafbad.com/trac/"  />
+<link name="*untitled" sourceid="3277581162" sourcecreator="lmorchard" sstart="405" slen="32" style="0" destid="3277234544" destcreator="system" URL="http://decafbad.com/blog/2006/05/26/confessions-of-a-serial-enthusiast"  />
+<link name="*untitled" sourceid="3277581162" sourcecreator="lmorchard" sstart="63" slen="22" style="0" destid="3277234544" destcreator="system" URL="http://search.yahoo.com/search?p=l.m.orchard"  />
+<link name="*untitled" sourceid="3277580949" sourcecreator="lmorchard" sstart="10" slen="18" style="0" destid="3277234544" destcreator="system" URL="http://eastgate.com/Tinderbox/"  />
+<link name="*untitled" sourceid="3277581162" sourcecreator="lmorchard" sstart="230" slen="12" style="0" destid="3277234544" destcreator="system" URL="http://decafbad.com/"  />
+<link name="*untitled" sourceid="3277580949" sourcecreator="lmorchard" sstart="353" slen="17" style="0" destid="3277234544" destcreator="system" URL="http://www.amazon.com/exec/obidos/search-handle-url/105-8025588-8213233?%5Fencoding=UTF8&amp;search-type=ss&amp;index=books&amp;field-author=Leslie%20M.%20Orchard"  />
+<link name="prototype" sourceid="3277240021" sourcecreator="lmorchard" sstart="-1" slen="0" style="0" destid="3277582567" destcreator="lmorchard"  />
+<link name="prototype" sourceid="3277240015" sourcecreator="lmorchard" sstart="-1" slen="0" style="0" destid="3277582742" destcreator="lmorchard"  />
+<link name="prototype" sourceid="3277240021" sourcecreator="lmorchard" sstart="-1" slen="0" style="0" destid="3277582826" destcreator="lmorchard"  />
+<link name="prototype" sourceid="3277240021" sourcecreator="lmorchard" sstart="-1" slen="0" style="0" destid="3277583031" destcreator="lmorchard"  />
+<link name="*untitled" sourceid="3277579756" sourcecreator="lmorchard" sstart="354" slen="6" style="0" destid="3277234544" destcreator="system" URL="http://tumblr.com/"  />
+<link name="prototype" sourceid="3277240021" sourcecreator="lmorchard" sstart="-1" slen="0" style="0" destid="3277583151" destcreator="lmorchard"  />
+<link name="prototype" sourceid="3277299011" sourcecreator="lmorchard" sstart="-1" slen="0" style="0" destid="3277584116" destcreator="lmorchard"  />
+<link name="prototype" sourceid="3277240021" sourcecreator="lmorchard" sstart="-1" slen="0" style="0" destid="3277584129" destcreator="lmorchard"  />
+<link name="*untitled" sourceid="3277580949" sourcecreator="lmorchard" sstart="456" slen="39" style="0" destid="3277234544" destcreator="system" URL="http://decafbad.com/svn/trunk/recaffinated/"  />
+<link name="prototype" sourceid="3277240021" sourcecreator="lmorchard" sstart="-1" slen="0" style="0" destid="3277654537" destcreator="lmorchard"  />
+<link name="*untitled" sourceid="3277654537" sourcecreator="lmorchard" sstart="160" slen="9" style="0" destid="3277234544" destcreator="system" URL="http://del.icio.us/deusx"  />
+<link name="*untitled" sourceid="3277654537" sourcecreator="lmorchard" sstart="171" slen="7" style="0" destid="3277234544" destcreator="system" URL="http://twitter.com/lmorchard"  />
+<link name="*untitled" sourceid="3277654537" sourcecreator="lmorchard" sstart="180" slen="6" style="0" destid="3277234544" destcreator="system" URL="http://www.flickr.com/photos/deusx/"  />
+<link name="*untitled" sourceid="3277654537" sourcecreator="lmorchard" sstart="449" slen="10" style="0" destid="3277234544" destcreator="system" URL="http://decafbad.com/trac/wiki/FeedMagick"  />
+<link name="prototype" sourceid="3277299011" sourcecreator="lmorchard" sstart="-1" slen="0" style="0" destid="3277701513" destcreator="lmorchard"  />
+<link name="prototype" sourceid="3277240021" sourcecreator="lmorchard" sstart="-1" slen="0" style="0" destid="3277701707" destcreator="lmorchard"  />
+<link name="prototype" sourceid="3277285161" sourcecreator="lmorchard" sstart="-1" slen="0" style="0" destid="3277712367" destcreator="lmorchard"  />
+<link name="*untitled" sourceid="3277712367" sourcecreator="lmorchard" sstart="603" slen="70" style="0" destid="3277234544" destcreator="system" URL="http://diveintomark.org/archives/2004/05/14/freedom-0"  />
+<link name="*untitled" sourceid="3277712367" sourcecreator="lmorchard" sstart="20" slen="9" style="0" destid="3277234544" destcreator="system" URL="http://eastgate.com/Tinderbox/"  />
+<link name="*untitled" sourceid="3277712367" sourcecreator="lmorchard" sstart="294" slen="9" style="0" destid="3277234544" destcreator="system" URL="http://eastgate.com/Tinderbox/"  />
+<link name="*untitled" sourceid="3277712367" sourcecreator="lmorchard" sstart="1463" slen="41" style="0" destid="3277234544" destcreator="system" URL="http://decafbad.com/trac/wiki/XoxoOutliner"  />
+<link name="*untitled" sourceid="3277712367" sourcecreator="lmorchard" sstart="1524" slen="31" style="0" destid="3277234544" destcreator="system" URL="http://decafbad.com/blog/2005/07/02/drag-the-boxes-stretch-the-lines"  />
+<link name="prototype" sourceid="3277240015" sourcecreator="lmorchard" sstart="-1" slen="0" style="0" destid="3277731836" destcreator="lmorchard"  />
+<link name="prototype" sourceid="3277240021" sourcecreator="lmorchard" sstart="-1" slen="0" style="0" destid="3277732930" destcreator="lmorchard"  />
+<link name="prototype" sourceid="3277240021" sourcecreator="lmorchard" sstart="-1" slen="0" style="0" destid="3277756890" destcreator="lmorchard"  />
+<link name="*untitled" sourceid="3277756890" sourcecreator="lmorchard" sstart="178" slen="6" style="0" destid="3277234544" destcreator="system" URL="http://disqus.com/"  />
+<link name="*untitled" sourceid="3277756890" sourcecreator="lmorchard" sstart="47" slen="9" style="0" destid="3277234544" destcreator="system" URL="http://blogs.opml.org/decafbad"  />
+<link name="prototype" sourceid="3277299011" sourcecreator="lmorchard" sstart="-1" slen="0" style="0" destid="3277756993" destcreator="lmorchard"  />
+<link name="prototype" sourceid="3277240015" sourcecreator="lmorchard" sstart="-1" slen="0" style="0" destid="3277805588" destcreator="lmorchard"  />
+</links>
+<macros >
+</macros>
+<preferences >
+   <Creator > lmorchard</Creator>
+   <ToolbarVisible > 0</ToolbarVisible>
+   <OpenTextImmediately > 0</OpenTextImmediately>
+   <RunScriptsAutomatically > 1</RunScriptsAutomatically>
+   <UseStartupWizard > 1</UseStartupWizard>
+   <RememberWindowPositions > 1</RememberWindowPositions>
+   <KeepWindowsOpen > 1</KeepWindowsOpen>
+   <LeftMargin > 2</LeftMargin>
+   <RightMargin > -2</RightMargin>
+   <ParagraphSpacing > 4</ParagraphSpacing>
+   <MagnifyFonts > 1</MagnifyFonts>
+   <TextFont > Georgia</TextFont>
+   <TextSize > 4</TextSize>
+   <TextJust > 0</TextJust>
+   <AlwaysShowTextLinks > 1</AlwaysShowTextLinks>
+   <TextLinkFrames > 1</TextLinkFrames>
+   <TextLinkColor > 0 26112 52224</TextLinkColor>
+   <VisitedLinkColor > 26112 0 52224</VisitedLinkColor>
+   <ActiveLinkColor > 65535 0 0</ActiveLinkColor>
+   <MagnifyPictures > 1</MagnifyPictures>
+   <TextWindowWidth > 4</TextWindowWidth>
+   <TextWindowHeight > 5</TextWindowHeight>
+   <TextBackgroundColor > 65535 65535 65535</TextBackgroundColor>
+   <TextColor > 0 0 0</TextColor>
+   <ShowSidebar > 0</ShowSidebar>
+   <ShowTitle > 0</ShowTitle>
+   <TitleBackgroundColor > 0 0 0</TitleBackgroundColor>
+   <TitleForegroundColor > 65535 65535 65535</TitleForegroundColor>
+   <TitleFont > Lucida Grande</TitleFont>
+   <TitleSize > 2</TitleSize>
+   <TitleJust > 2</TitleJust>
+   <MapShowLinks > 1</MapShowLinks>
+   <MapCurvedLinks > 1</MapCurvedLinks>
+   <MapEnacted > 1</MapEnacted>
+   <MapLabelSize > 4</MapLabelSize>
+   <MapBackgroundColor > 61952 61952 58880</MapBackgroundColor>
+   <MapPrototypeColor > 56797 61166 56797</MapPrototypeColor>
+   <MapFont > Georgia</MapFont>
+   <DarkenOutlineColors > 1</DarkenOutlineColors>
+   <OutlineLeading > 2</OutlineLeading>
+   <InteriorScale > 1</InteriorScale>
+   <ExpandMode > 1</ExpandMode>
+   <ExportTextLinks > 1</ExportTextLinks>
+   <ExportBasicLinks > 1</ExportBasicLinks>
+   <ExportHierarchicalLinks > 1</ExportHierarchicalLinks>
+   <ExportTextLinkNames > 1</ExportTextLinkNames>
+   <ExportImageFormat > 1</ExportImageFormat>
+   <ExportURL > http://decafbad.com/recaffinated/</ExportURL>
+   <ExportTemplate > Macintosh HD:Users:lorchard:devel:trunk:recaffinated:templates:default.html</ExportTemplate>
+   <ExportHTMLCreator > 9</ExportHTMLCreator>
+   <ExportHTMLExtension > 0</ExportHTMLExtension>
+   <HTMLParagraphStyle > 1</HTMLParagraphStyle>
+   <HTMLViewFont > Lucida Grande</HTMLViewFont>
+   <HTMLViewFontSize > 2</HTMLViewFontSize>
+   <RoadmapWindowWidth > 0</RoadmapWindowWidth>
+   <RoadmapWindowHeight > 0</RoadmapWindowHeight>
+   <ExportTextTemplate > Macintosh HD:Users:lorchard:outline</ExportTextTemplate>
+   <ExportTextCreator > 1</ExportTextCreator>
+   <TextExportViewFont > Lucida Grande</TextExportViewFont>
+   <TextExportViewFontSize > 2</TextExportViewFontSize>
+   <AskToDelete > 1</AskToDelete>
+   <DailyTip > 1</DailyTip>
+   <WarnEditingDefault > 1</WarnEditingDefault>
+   <WarnDuplicateName > 0</WarnDuplicateName>
+   <Version > Tinderbox™ 4.0.2 © Copyright 2003-2007  Eastgate Systems Inc.</Version>
+   <PreferencePane > 1</PreferencePane>
+   <Fontmap > 2 -11904 Georgia 1024 Lucida Grande</Fontmap>
+   <TipWindowX > 300</TipWindowX>
+   <TipWindowY > 50</TipWindowY>
+   <RegUserName > Leslie Orchard</RegUserName>
+   <RegUserOrg > </RegUserOrg>
+   <FindCaseSensitive > 1</FindCaseSensitive>
+   <ExportFolder > Macintosh HD:Users:lorchard:devel:trunk:recaffinated:html:</ExportFolder>
+   <ReadOnly > 0</ReadOnly>
+   <InfoWindowHeight > 700</InfoWindowHeight>
+   <InfoWindowWidth > 900</InfoWindowWidth>
+   <DynamicSpelling > 0</DynamicSpelling>
+   <RecentFiles > &lt;files &gt;&lt;file &gt;Macintosh HD:Users:lorchard:Sites:roaster:decafbad roaster&lt;/file&gt;&lt;file &gt;Macintosh HD:Users:lorchard:Documents:random.tbx&lt;/file&gt;&lt;/files&gt;</RecentFiles>
+   <PingServer > http://rpc.weblogs.com/RPC2</PingServer>
+   <PingMethod > weblogUpdates.ping</PingMethod>
+   <PingTitle > your weblog name</PingTitle>
+   <PingURL > weblog URL</PingURL>
+      <PingTechnorati > 1</PingTechnorati>
+   <PingWeblogsCom > 1</PingWeblogsCom>
+   <PingFeedster > 1</PingFeedster>
+   <PingGoogle > 1</PingGoogle>
+   <PingFeedURL > </PingFeedURL>
+   <WeblogServer > http://your_host/cgi-bin/mt/mt-xmlrpc.cgi</WeblogServer>
+   <WeblogUser > </WeblogUser>
+   <WeblogPassword > </WeblogPassword>
+   <WeblogID > 1</WeblogID>
+   <WeblogKind > 2</WeblogKind>
+   <ToolbarKind > 3</ToolbarKind>
+   <ReadingReminders > 0</ReadingReminders>
+   <AllowViews > 1</AllowViews>
+   <AutomaticAgentUpdate > 1</AutomaticAgentUpdate>
+   <ToolbarX > 68</ToolbarX>
+   <ToolbarY > 400</ToolbarY>
+   <FindWindowX > 600</FindWindowX>
+   <FindWindowY > 100</FindWindowY>
+   <RenameWindowX > 845</RenameWindowX>
+   <RenameWindowY > 249</RenameWindowY>
+   <UpdateViewShown > </UpdateViewShown>
+   <LeftMargin > 2</LeftMargin>
+   <RightMargin > -2</RightMargin>
+   <ParagraphSpacing > 4</ParagraphSpacing>
+   <MagnifyFonts > 1</MagnifyFonts>
+   <SoundOn > 1</SoundOn>
+   <BecomeReadOnly > 0</BecomeReadOnly>
+   <CheckMail > 0</CheckMail>
+   <MailHost > </MailHost>
+   <MailUser > </MailUser>
+   <MailPassword > </MailPassword>
+</preferences>
+<windows >
+<window ID="3277234544" Creator="system" type="quickStamp" bounds="Rect[ 700 50 1100 170]" x="0" y="0" scale="1"  />
+<window ID="3277234544" Creator="system" type="outline" bounds="Rect[ 57 50 338 472]" x="0" y="0" scale="5" expanded="3277234544 3277237197 3277579747 3277579748 3277325277 3277357865 3277357598 3277373329 3277373358 3277357648 3277357626 3277373385 3277325396 3277356380 3277411789 3277325418 3277357788 3277285162 3277302639 3277234591 3277297198 3277299004 3277238752 " collapsed="3277578110 3277579749 3277584116 3277701513 3277756993 3277292185 3277294971 3277294980 3277319545 3277357711 3277357715 3277375134 3277319149 3277302704 3277480882 3277574128 3277578373 "  />
+<window ID="3277756993" Creator="lmorchard" type="outline" bounds="Rect[ 407 176 990 736]" x="0" y="0" scale="5" expanded="3277756993 "  />
+</windows>
+</tinderbox>

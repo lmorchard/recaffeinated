@@ -1,0 +1,7 @@
+  <entry>
+    <title>^title^</title>
+    <link href="^host^^path^"/>
+    <id>^host^^path^</id>
+    <updated>^lastModified(this,=)^</updated>
+    <summary type="html"><![CDATA[^text^]]></summary>
+  </entry>

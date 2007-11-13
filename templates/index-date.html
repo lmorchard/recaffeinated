@@ -1,0 +1,13 @@
+^if(^equal(^get(id), ^getFor(current,id)))^ 
+^include(page-header, page-header.html)^
+<ol class="xoxo">
+^endif^
+    <li id="date-^get(id)^" class="date^if(^equal(^get(id), ^getFor(current,id)))^ date-single^endif^^if(^get(debug)^)^ debug^endif^ y^created(this,y)^ m^created(this,M0)^ d^created(this,D)^ h^created(this,h)^">
+        <h2 class="date-header"><a href="^getFor(current,BaseUrl)^^path^" rel="bookmark">^created(this,"W, MM d, y")^</a></h2>
+        ^if(^text)^<div class="intro">^text^</div>^endif^
+        <ol class="hfeed">^justChildren^</ol>
+    </li>
+^if(^equal(^get(id), ^getFor(current,id)))^ 
+</ol>
+^include(page-footer, page-footer.html)^
+^endif^

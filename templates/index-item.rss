@@ -1,0 +1,7 @@
+    <item>
+        <title>^title^</title>
+        <link>^host^^path^</link>
+        <guid>^host^^path^</guid>
+        <description><![CDATA[^text^]]></description>
+        <pubDate>^lastModified(this,*)^</pubDate>
+    </item>

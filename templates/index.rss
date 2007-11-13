@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>^getFor(Settings,SiteTitle)^</title>
+        <description>^getFor(Settings,SiteSubtitle)^</description>
+        <link>^host^^path^</link>
+        <copyright>^getFor(Settings,SiteCopyright)^</copyright>
+        <language>en-us</language>
+        <generator>Eastgate Tinderbox (v^Version^), http://www.eastgate.com/Tinderbox/</generator>
+        <lastBuildDate>^lastModified(Archives,*)^</lastBuildDate>
+        <managingEditor>^getFor(Settings,AuthorEmail)^</managingEditor>
+        <webMaster>^getFor(Settings,AuthorEmail)^</webMaster>
+        <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+        ^justchildren(index-item.rss)
+    </channel>
+</rss>

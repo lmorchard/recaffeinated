@@ -1,0 +1,12 @@
+        <li>
+            ^if(^text)^
+                <span class="text">^text^</span>
+            ^else^
+                ^if(^title)^
+                    <h4 class="title">^title^</h4>
+                ^endif^
+            ^endif^
+            ^if(^children)^
+                <ul class="xoxo">^justChildren(entry-essay-child.html)^</ul>
+            ^endif^
+        </li>

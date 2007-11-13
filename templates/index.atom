@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>^getFor(Settings,SiteTitle)^</title>
+    <link rel="self" href="^host^^path^"/>
+    <updated>^lastModified(Archives,*)^</updated>
+    <author>
+        <name>^getFor(Settings,AuthorName)^</name>
+        <email>^getFor(Settings,AuthorEmail)^</email>
+    </author>
+    <id>^host^^path^</id>
+    ^justchildren(index-item.atom)^
+</feed>

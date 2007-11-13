@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+        <title>^getFor(Settings,SiteTitle)^^if(^getFor(current,IsHome))^^else^^if(^getFor(current,IsMonth))^ :: ^created(current,y MM)^^else^^if(^getFor(current,IsDay))^ :: ^created(current,y MM D)^^else^ :: ^title(current)^^endif^^endif^^endif^</title>
+        <meta name="description" content="^getFor(Settings,SiteSubtitle)^" /> 
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+
+        <link rel="start" href="^getFor(current,BaseUrl)^" />
+        <link rel="alternate" type="application/atom+xml" href="^getFor(current,BaseUrl)^index.atom" title="Atom 1.0 Feed" />
+        <link rel="alternate" type="application/rss+xml" href="^getFor(current,BaseUrl)^index.rss" title="RSS 2.0 Feed" />
+
+        <!--
+        <link rel="microsummary" type="text/plain" href="^getFor(current,BaseUrl)^microsummary" />
+        -->
+
+        <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.3.1/build/reset-fonts-grids/reset-fonts-grids.css" />
+        <script type="text/javascript" src="http://yui.yahooapis.com/2.3.1/build//utilities/utilities.js"></script>
+
+        <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.3.1/build/logger/assets/logger.css"> 
+        <script type="text/javascript" src="http://yui.yahooapis.com/2.3.1/build//logger/logger-min.js"></script>
+
+        <script type="text/javascript" src="^getFor(current,BaseUrl)^js/base/forEach.js"></script>
+
+        <script type="text/javascript" src="^getFor(current,BaseUrl)^js/audio-player.js"></script>
+
+        <script type="text/javascript" src="http://www.haloscan.com/load/lmorchard"></script>
+
+        <link type="text/css" rel="stylesheet" href="^getFor(current,BaseUrl)^css/SyntaxHighlighter.css"></link>
+        <link rel="stylesheet" type="text/css" href="^getFor(current,BaseUrl)^css/main.css" />
+
+        <script src="^getFor(current,BaseUrl)^js/dom.js" type="text/javascript"></script>
+        <script src="^getFor(current,BaseUrl)^js/main.js" type="text/javascript"></script>
+        
+        <!--
+        <link rel="stylesheet" type="text/css" href="^getFor(current,BaseUrl)^css/skin-^getFor(Settings,SiteSkin)^.css" />
+        <link rel="stylesheet" type="text/css" href="^getFor(current,BaseUrl)^css/bodyclass-^getFor(current,BodyClass)^.css" />
+        <script type="text/javascript" src="^getFor(current,BaseUrl)^css/bodyclass-^getFor(current,BodyClass)^.js"></script>
+        -->
+
+    </head>
+
+    <body id="page-^get(id)^" class="^getFor(current,BodyClass)^^if(^getFor(Settings,debug)^)^ debug^endif^ skin-^getFor(Settings,SiteSkin)^ yui-skin-sam y^created(current,y)^ m^created(current,M0)^ d^created(current,D)^ h^created(current,h)^">
+
+        <div id="doc" class="ct ^if(^getFor(current,UseSidebar)^)^yui-t4^else^yui-t7^endif^^if(^getFor(Settings,debug)^)^ debug^endif^">
+            
+            <div id="hd">
+                <h1 id="page-title">
+                    <a href="^getFor(current,BaseUrl)^index.html">^getFor(Settings,SiteTitle)^</a>
+                    <!--
+                    ^if(^getFor(current,IsEntry))^ :: ^title(current)^ ^endif^
+                    ^if(^getFor(current,IsDay))^ :: ^created(current,"w, M d, y")^ ^endif^
+                    -->
+                </h1>
+                ^if(^getFor(Settings, SiteSubtitle))^
+                <p id="page-subtitle">^getFor(Settings, SiteSubtitle)^</p>
+                ^endif^
+                ^include(page-nav)^
+                <ul id="page-nav">
+                    <li class="first"><a href="^getFor(current,BaseUrl)^index.html">home</a></li>
+                    <li><a href="^getFor(current,BaseUrl)^archives.html">archives</a></li>
+                    <li><a href="^getFor(current,BaseUrl)^about.html">about</a></li>
+                    <li class="last"><a href="^getFor(Settings,AuthorURL)^">by ^getFor(Settings,AuthorName)^</a></li>
+                </ul>
+            </div>
+
+            <div id="bd">
+                <div id="yui-main">
+                    <div class="yui-b">

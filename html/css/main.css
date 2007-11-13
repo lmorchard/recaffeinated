@@ -1,0 +1,374 @@
+/**
+ *
+ */
+
+body { 
+    margin: 0; padding: 0; 
+    background-image: url(../img/bg/pat_20071030220925.gif); 
+    background-color: #645361;
+    font-family:"Trebuchet MS",Arial,Helvetica,sans-serif;
+    font-family: georgia,times new roman,serif;
+}
+#doc {
+    position: relative; 
+    min-width: 610px; width:610px; margin: 0 auto 0 100px; 
+}
+
+#hd { 
+    position: relative;
+    height: 111px;
+    background-color: #cccbcc; color: #666; border-bottom: 1px solid #ccc;
+    background: #cccbcc url(http://decafbad.com/images/heeed7c.jpg) no-repeat scroll top right;
+}
+#bd { padding-left: 25px; background-color: #fcfcfc; color: #444444; }
+#sb { position: relative; left: 181px; }
+#sb .yui-b { border-left: 1px solid #ccc; background-color: #dddadd; color: #333; padding: 1em }
+#ft { padding: 1em; background-color: #dddadd; color: #666; }
+#ft p { padding-left: 10px; }
+
+.yui-t7 #yui-main .yui-b { 
+    margin: 0; padding: 0.25em 1em 1em 1em; background-color: #fcfcfc;
+}
+.yui-t4 #yui-main .yui-b {
+    margin: 0; padding: 0.25em 1em 1em 1em; background-color: #fcfcfc;
+}
+
+.yui-b .intro { margin-bottom: 0.5em; }
+
+a         { color: #111; text-decoration: none; border-bottom: 1px dotted #000; }
+a:link    { }
+a:visited { }
+a:hover   { color: #000; border-bottom: 1px solid #333; }
+a:active  { }
+
+ul#page-nav {
+    position: absolute;
+    bottom: 0;
+    padding: 0 0 0 20px;
+    margin: 0 115px 0 0;
+}
+ul#page-nav li {
+    float: left;
+    padding-right: 0.5em;
+}
+ul#page-nav li.last {
+    float: right;
+    padding-left: 5em;
+}
+ul#page-nav li a {
+    display: block;
+    border: 1px solid #aaa;
+    border-bottom: none;
+    padding: 3px 8px 3px 8px;
+}
+ul#page-nav li a:hover {
+    background-color: #aaa;
+}
+
+/**
+ * General formatting markup
+ */
+h1 { font-size: 198%; }
+h2 { font-size: 182%; }
+h3 { font-size: 152%; }
+h4 { font-size: 144%; }
+
+p { line-height: 1.5em; margin: 0 0 1em 0 }
+
+form { }
+form fieldset { border: 1px solid #999; padding: 1em; margin: 0 0 1em 0 }
+form legend {  font-weight: bold; font-size: 122%; }
+form fieldset ul { float: left }
+form fieldset ul.wide { float: none }
+form fieldset li { padding: 0em 0 0.5em 0; clear: left; }
+form fieldset li label { float: left; display: block; text-align: right; width: 15ex; padding: 0.25em; }
+form fieldset li.error label { color: red; font-weight: bold; }
+form fieldset li.captcha label {  }
+form fieldset li.captcha img { padding-left: 0.5em; float: left; }
+form fieldset li.captcha input { width: 150px; }
+form fieldset input.text { margin: 0 0.5em 0 0.5em; padding: 0.25em; width: 45ex }
+form fieldset input.password { margin: 0 0.5em 0 0.5em; padding: 0.25em; width: 30ex }
+form fieldset input.checkbox { margin: 0 0.5em 0 0.5em; padding: 0.25em; }
+form fieldset input.upload { margin: 0 0.5em 0 0.5em; padding: 0.25em; width: 25ex }
+form fieldset textarea { margin: 0 0.5em 0 0.5em; padding: 0.25em; width: 45ex; height: 8em; }
+form fieldset input.submit { padding: 0.25em; margin-right: 1em; }
+form fieldset input.first { margin-left: 17ex; padding: 0.25em; }
+form .buttons { padding: 1em; }
+form .buttons .first { margin-left: 17ex; }
+
+.skin-dev2 #hd h1 {
+    padding: 8px 15px 10px 20px;
+    margin-right: 115px;
+    /*
+    padding: 15px 15px 10px 45px;
+    background: transparent url(../img/developpers-icons/Gear%20Alt.png) no-repeat scroll 10px 15px;
+    */
+}
+.skin-dev2 #hd #page-subtitle {
+    margin: 0 115px 0 0;
+    /*
+    padding: 0 0 0 45px;
+    */
+    padding: 0 0 0 20px;
+}
+.skin-dev2 .intro {
+    font-size: 144%;
+    padding-left: 35px;
+}
+.skin-dev2 .page .title {
+    padding: 0.25em 0 0.5em 0;
+}
+.skin-dev2 .hfeed .hentry {
+    margin: 20px 30px 15px 0;
+    padding: 10px 25px 10px 45px;
+    background: #e4e0e4 url(../img/developpers-icons/Write%20Document.png) no-repeat scroll 5px 5px;
+    position: relative;
+}
+.skin-dev2 .hfeed .hentry a.permalink-small, .skin-dev2 .hfeed .hentry a:visited.permalink-small {
+    color: #aaa; 
+    border: none;
+    padding: 0 0.5em 0 0.5em;
+}
+.skin-dev2 .hfeed .hentry a:hover.permalink-small  {
+    background-color: #888;
+}
+.skin-dev2 .comments {
+    white-space: nowrap;
+}
+.skin-dev2 .comments a {
+    color: #ccc; 
+    border: none; 
+    font-size: 92%;
+}
+.skin-dev2 .comments a:hover.commentlink .count {
+    background-color: #888;
+}
+.skin-dev2 .hfeed .hentry .permalink .entry-date {
+    display: none;
+}
+.skin-dev2 .hfeed .entry-essay .entry-date {
+    display: none;
+}
+.skin-dev2 .entry-single .entry-essay h4.entry-date {
+    display: block;
+    padding-bottom: 0.5em;
+}
+.skin-dev2 .hfeed .hentry .entry-title {
+    font-size: 144%;
+}
+.skin-dev2 .hfeed .hentry .entry-content {
+    font-size: 110%;
+}
+.skin-dev2 .hfeed .hentry .entry-content p {
+    margin-right: 15px;
+}
+.skin-dev2 .hfeed .entry-essay {
+    background-image: url(../img/developpers-icons/Write%20Document.png);
+    background-color: #f3f3e3;
+}
+.skin-dev2 .hfeed .entry-essay .entry-title {
+    font-size: 144%;
+    padding-bottom: 0.75em;
+}
+.skin-dev2 .hfeed .entry-essay .entry-content {
+    color: #111;
+}
+.skin-dev2 .hfeed .entry-essay .entry-content h4.title {
+    font-size: 125%; color: #111;
+}
+.skin-dev2 .hfeed .entry-essay .entry-content ul {
+    padding-left: 1.75em;
+}
+.skin-dev2 .hfeed .entry-essay .entry-content ul li {
+    padding-bottom: 1em;
+}
+.skin-dev2 .hfeed .entry-essay .entry-content ul li {
+    list-style-type: square;
+    line-height: 1.5em;
+}
+.skin-dev2 .hfeed .entry-essay .entry-content ul.xoxo li {
+    list-style-type: none;
+}
+.skin-dev2 .hfeed .entry-essay .entry-content > ul.xoxo {
+    padding-left: 0;
+}
+.skin-dev2 .hfeed .entry-aside {
+}
+.skin-dev2 .hfeed .entry-aside h3 { 
+    font-size: 112%;
+    text-indent: -1em; 
+    padding-left: 1em; 
+    padding-bottom: 0.25em;
+}
+.skin-dev2 .hfeed .entry-aside .entry-title:before { 
+    content:"\BB\0020";
+}
+.skin-dev2 .hfeed .entry-aside .entry-title { 
+    font-size: 112%;
+}
+.skin-dev2 .hfeed .entry-aside .entry-content {
+    padding: 0.25em 0 0 0;
+}
+.skin-dev2 .hfeed .entry-notion {
+    background-image: url(../img/developpers-icons/Run.png);
+    padding-bottom: 10px;
+    background-color: #f0e0f0;
+}
+.skin-dev2 .hfeed .entry-notion .entry-title {
+    font-size: 144%;
+}
+.skin-dev2 .hfeed .entry-notion a {
+    border: none
+}
+.skin-dev2 .hfeed .entry-quote {
+    background-image: url(../img/developpers-icons/Discussion.png);
+    background-color: #e0f0e0;
+}
+.skin-dev2 .hfeed .entry-quote .entry-title {
+    font-size: 114%;
+}
+.skin-dev2 .hfeed .entry-quote .entry-content {
+}
+.skin-dev2 .hfeed .entry-quote .entry-content p {
+    font-style: italic;
+    font-size: 100%;
+    margin: 0 0 1em 0;
+}
+.skin-dev2 .hfeed .entry-quote h3 {
+    padding-left: 25px;
+}
+.skin-dev2 .hfeed .entry-quote h3:before {
+    content: "\2014 \0020";
+}
+.skin-dev2 .hfeed .entry-chat {
+    background-image: url(../img/developpers-icons/User.png);
+    background-color: #e0f0e0;
+}
+.skin-dev2 .hfeed .entry-bookmark {
+    background-image: url(../img/developpers-icons/Web%20Browser.png);
+}
+.skin-dev2 .hfeed .entry-bookmark .entry-date {
+    display: none;
+}
+.skin-dev2 .hfeed .entry-code {
+    background-image: url(../img/developpers-icons/Terminal.png);
+    background-color: #ccc;
+}
+.skin-dev2 .hfeed .entry-code .entry-date {
+    display: none;
+}
+.skin-dev2 .hfeed .entry-image {
+    background-image: url(../img/developpers-icons/Picture%20Document.png);
+    background-color: #eee;
+}
+.skin-dev2 .hfeed .entry-image img {
+    border: 2px solid #333;
+}
+.skin-dev2 .hfeed .entry-image .entry-date {
+    display: none;
+}
+.skin-dev2 .hfeed .entry-video {
+    background-image: url(../img/developpers-icons/Movie%20Document.png);
+}
+.skin-dev2 .hfeed .entry-audio {
+    background-image: url(../img/developpers-icons/Audio%20CD.png);
+    background-color: #ebebfb;
+}
+.skin-dev2 .hfeed .entry-audio .entry-date {
+    display: none;
+}
+.skin-dev2 .hfeed .entry-aside { 
+    background: none; padding: 0 25px 0 35px; margin: 5px 0 5px 0;
+    border-top: none; border-bottom: none;
+}
+.skin-dev2 .hfeed .entry-aside h3.entry-title {
+    font-size: 122%;
+    color: #222;
+}
+.skin-dev2 .hfeed .entry-aside h3.entry-title a, .skin-dev2 .hfeed .entry-aside h3.entry-title a:visited {
+    padding: 0 0.125em 0 0.125em;
+    margin: 0 0 0 0.125em;
+    color: #ddd;
+    border-bottom: none;
+}
+.skin-dev2 .hfeed .entry-aside .entry-content {
+    padding-left: 2em;
+    font-size: 110%;
+}
+a.entry-date, a:visited.entry-date {
+    color: #ddd;
+    border-bottom: none;
+}
+
+.date {
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+}
+.yui-b .date-single {
+    border: none;
+}
+.date .date-header {
+    padding: 15px 25px 10px 35px;
+    line-height: 40px;
+    background: transparent url(../img/developpers-icons/History.png) no-repeat scroll 0px 18px;
+    /*
+    border-top: 2px solid #999;
+    */
+}
+
+div.page {
+    padding: 20px 15px 20px 0;
+}
+div.page ol {
+    padding: 1.5em 45px 0em 1.5em;
+}
+div.page ol li {
+    padding: 0 0 1em 0;
+}s
+
+.archives {
+    padding: 20px 0 20px 0;
+}
+.archives ol {
+    padding: 1.0em 0.5em 1.5em 1.5em;
+}
+.archives .archive-pages li {
+    list-style-type: square;
+    margin: 0 0 0.25em 1em;
+}
+.archives .archive-years {
+}
+.archives .archive-day {
+    float: left;
+    text-align: center;
+    padding: 0 2em 0 0;
+}
+.archives .archive-day h5 {
+    font-size: 175%;
+}
+
+.debug #logger { width: 90%; margin-top: 2em; display: none }
+
+/**
+    Y! Fonts CSS
+
+    px  %
+
+    10 	77
+    11 	85
+    12 	92
+    13 	100
+    14 	107
+    15 	114
+    16 	122
+    17 	129
+    18 	136
+    19 	144
+    20 	152
+    21 	159
+    22 	167
+    23 	174
+    24 	182
+    25 	189
+    26 	197
+ */
