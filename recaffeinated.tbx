@@ -95,7 +95,7 @@
 </attrib>
 <attrib Name="HTMLExportFileName" parent="HTML" editable="1" visibleInEditor="1" default="" >
 </attrib>
-<attrib Name="HTMLExportTemplate" parent="HTML" editable="1" visibleInEditor="1" kind="6" type="3" default="Macintosh HD:Users:lorchard:devel:trunk:recaffinated:templates:default.html" >
+<attrib Name="HTMLExportTemplate" parent="HTML" editable="1" visibleInEditor="1" kind="6" type="3" default="Macintosh HD:Users:lorchard:devel:trunk:recaffeinated:templates:default.html" >
 </attrib>
 <attrib Name="HTMLFileNameLowerCase" parent="HTML" editable="1" visibleInEditor="1" type="4" default="false" >
 </attrib>
@@ -407,7 +407,7 @@
 <attribute name="WindowPlace" >Rect[ 50 50 750 350]</attribute>
 <attribute name="Created" >6 Nov 2007 22:55:41</attribute>
 <attribute name="Modified" >6 Nov 2007 22:55:41</attribute>
-<attribute name="Name" >tindertumble</attribute>
+<attribute name="Name" >recaffeinated</attribute>
 <attribute name="Xpos" >0</attribute>
 <attribute name="Ypos" >0</attribute>
 <item ID="3277234579" Creator="system" >
@@ -438,8 +438,8 @@
 <attribute name="SiteCopyrightURL" >http://creativecommons.org/licenses/by-nc/3.0/</attribute>
 <attribute name="SiteSkin" >dev2</attribute>
 <attribute name="SiteSubtitle" >a lightweight meme stream from a lazy serial enthusiast</attribute>
-<attribute name="SiteTitle" >decafbad recaffinated</attribute>
-<attribute name="SiteUrl" >http://decafbad.com/recaffinated/</attribute>
+<attribute name="SiteTitle" >decafbad recaffeinated</attribute>
+<attribute name="SiteUrl" >http://decafbad.com/recaffeinated/</attribute>
 <attribute name="debug" >true</attribute>
 <attribute name="id" >194</attribute>
 <text >
@@ -588,7 +588,7 @@ Anyway, if you&apos;re really interested in seeing how this works, the source fi
 <attribute name="Color" >magenta</attribute>
 <attribute name="Xpos" >10</attribute>
 <attribute name="Ypos" >-0.5</attribute>
-<attribute name="HTMLExportTemplate" >Macintosh HD:Users:lorchard:devel:trunk:recaffinated:templates:archives.html</attribute>
+<attribute name="HTMLExportTemplate" >Macintosh HD:Users:lorchard:devel:trunk:recaffeinated:templates:archives.html</attribute>
 <attribute name="HTMLExportFileName" >archives</attribute>
 <text >This is an archive of pages and days for which memes and things have been posted and written.  Item counts also include folders, so they might seem a little off.  But, don&apos;t fret - just relax and enjoy.</text>
 <styles >
@@ -995,7 +995,7 @@ I&apos;m wondering what sort of additional navigation I might add in, and whethe
 <attribute name="Badge" >home</attribute>
 <attribute name="Sort" >Created</attribute>
 <attribute name="SortBackward" >true</attribute>
-<attribute name="HTMLExportTemplate" >Macintosh HD:Users:lorchard:devel:trunk:recaffinated:templates:index.html</attribute>
+<attribute name="HTMLExportTemplate" >Macintosh HD:Users:lorchard:devel:trunk:recaffeinated:templates:index.html</attribute>
 <attribute name="HTMLExportFileName" >index</attribute>
 <attribute name="HTMLExportChildren" >false</attribute>
 <attribute name="BodyClass" >home</attribute>
@@ -1016,7 +1016,7 @@ I&apos;m wondering what sort of additional navigation I might add in, and whethe
 <attribute name="Xpos" >6</attribute>
 <attribute name="Ypos" >1.5</attribute>
 <attribute name="Badge" >web</attribute>
-<attribute name="HTMLExportTemplate" >Macintosh HD:Users:lorchard:devel:trunk:recaffinated:templates:index.rss</attribute>
+<attribute name="HTMLExportTemplate" >Macintosh HD:Users:lorchard:devel:trunk:recaffeinated:templates:index.rss</attribute>
 <attribute name="HTMLExportExtension" >.rss</attribute>
 <attribute name="HTMLExportFileName" >index</attribute>
 <attribute name="HTMLExportChildren" >false</attribute>
@@ -1035,7 +1035,7 @@ I&apos;m wondering what sort of additional navigation I might add in, and whethe
 <attribute name="Xpos" >10</attribute>
 <attribute name="Ypos" >1.5</attribute>
 <attribute name="Badge" >web</attribute>
-<attribute name="HTMLExportTemplate" >Macintosh HD:Users:lorchard:devel:trunk:recaffinated:templates:index.atom</attribute>
+<attribute name="HTMLExportTemplate" >Macintosh HD:Users:lorchard:devel:trunk:recaffeinated:templates:index.atom</attribute>
 <attribute name="HTMLExportExtension" >.atom</attribute>
 <attribute name="HTMLExportFileName" >index</attribute>
 <attribute name="HTMLExportChildren" >false</attribute>
@@ -1788,7 +1788,7 @@ I&apos;m wondering what sort of additional navigation I might add in, and whethe
 <attribute name="Xpos" >16.5</attribute>
 <attribute name="Ypos" >0</attribute>
 <attribute name="Badge" >folder</attribute>
-<attribute name="HTMLExportTemplate" >Macintosh HD:Users:lorchard:devel:trunk:recaffinated:templates:entry.html</attribute>
+<attribute name="HTMLExportTemplate" >Macintosh HD:Users:lorchard:devel:trunk:recaffeinated:templates:entry.html</attribute>
 <attribute name="HTMLDontExport" >true</attribute>
 <attribute name="id" >83</attribute>
 </item>
@@ -1804,7 +1804,7 @@ I&apos;m wondering what sort of additional navigation I might add in, and whethe
 <attribute name="Badge" >memo</attribute>
 <attribute name="KeyAttributes" >Tags</attribute>
 <attribute name="TextSidebar" >true</attribute>
-<attribute name="HTMLExportTemplate" >Macintosh HD:Users:lorchard:devel:trunk:recaffinated:templates:entry.html</attribute>
+<attribute name="HTMLExportTemplate" >Macintosh HD:Users:lorchard:devel:trunk:recaffeinated:templates:entry.html</attribute>
 <attribute name="HTMLExportChildren" >false</attribute>
 <attribute name="BaseUrl" >../../../../</attribute>
 <attribute name="IsEntry" >true</attribute>
@@ -1871,7 +1871,7 @@ I&apos;m wondering what sort of additional navigation I might add in, and whethe
 <attribute name="Xpos" >-4.5</attribute>
 <attribute name="Ypos" >0</attribute>
 <attribute name="Badge" >calendar</attribute>
-<attribute name="HTMLExportTemplate" >Macintosh HD:Users:lorchard:devel:trunk:recaffinated:templates:index-year.html</attribute>
+<attribute name="HTMLExportTemplate" >Macintosh HD:Users:lorchard:devel:trunk:recaffeinated:templates:index-year.html</attribute>
 <attribute name="BaseUrl" >../</attribute>
 <attribute name="id" >88</attribute>
 </item>
@@ -1886,7 +1886,7 @@ I&apos;m wondering what sort of additional navigation I might add in, and whethe
 <attribute name="Xpos" >-1</attribute>
 <attribute name="Ypos" >0</attribute>
 <attribute name="Badge" >calendar</attribute>
-<attribute name="HTMLExportTemplate" >Macintosh HD:Users:lorchard:devel:trunk:recaffinated:templates:index-month.html</attribute>
+<attribute name="HTMLExportTemplate" >Macintosh HD:Users:lorchard:devel:trunk:recaffeinated:templates:index-month.html</attribute>
 <attribute name="BaseUrl" >../../</attribute>
 <attribute name="IsMonth" >true</attribute>
 <attribute name="id" >89</attribute>
@@ -1902,7 +1902,7 @@ I&apos;m wondering what sort of additional navigation I might add in, and whethe
 <attribute name="Xpos" >2.5</attribute>
 <attribute name="Ypos" >0</attribute>
 <attribute name="Badge" >calendar</attribute>
-<attribute name="HTMLExportTemplate" >Macintosh HD:Users:lorchard:devel:trunk:recaffinated:templates:index-date.html</attribute>
+<attribute name="HTMLExportTemplate" >Macintosh HD:Users:lorchard:devel:trunk:recaffeinated:templates:index-date.html</attribute>
 <attribute name="BaseUrl" >../../../</attribute>
 <attribute name="IsDay" >true</attribute>
 <attribute name="id" >94</attribute>
@@ -2005,7 +2005,7 @@ I&apos;m wondering what sort of additional navigation I might add in, and whethe
 <link name="prototype" sourceid="3277240021" sourcecreator="lmorchard" sstart="-1" slen="0" style="0" destid="3277583151" destcreator="lmorchard"  />
 <link name="prototype" sourceid="3277299011" sourcecreator="lmorchard" sstart="-1" slen="0" style="0" destid="3277584116" destcreator="lmorchard"  />
 <link name="prototype" sourceid="3277240021" sourcecreator="lmorchard" sstart="-1" slen="0" style="0" destid="3277584129" destcreator="lmorchard"  />
-<link name="*untitled" sourceid="3277580949" sourcecreator="lmorchard" sstart="456" slen="39" style="0" destid="3277234544" destcreator="system" URL="http://decafbad.com/svn/trunk/recaffinated/"  />
+<link name="*untitled" sourceid="3277580949" sourcecreator="lmorchard" sstart="456" slen="39" style="0" destid="3277234544" destcreator="system" URL="http://decafbad.com/svn/trunk/recaffeinated/"  />
 <link name="prototype" sourceid="3277240021" sourcecreator="lmorchard" sstart="-1" slen="0" style="0" destid="3277654537" destcreator="lmorchard"  />
 <link name="*untitled" sourceid="3277654537" sourcecreator="lmorchard" sstart="160" slen="9" style="0" destid="3277234544" destcreator="system" URL="http://del.icio.us/deusx"  />
 <link name="*untitled" sourceid="3277654537" sourcecreator="lmorchard" sstart="171" slen="7" style="0" destid="3277234544" destcreator="system" URL="http://twitter.com/lmorchard"  />
@@ -2077,8 +2077,8 @@ I&apos;m wondering what sort of additional navigation I might add in, and whethe
    <ExportHierarchicalLinks > 1</ExportHierarchicalLinks>
    <ExportTextLinkNames > 1</ExportTextLinkNames>
    <ExportImageFormat > 1</ExportImageFormat>
-   <ExportURL > http://decafbad.com/recaffinated/</ExportURL>
-   <ExportTemplate > Macintosh HD:Users:lorchard:devel:trunk:recaffinated:templates:default.html</ExportTemplate>
+   <ExportURL > http://decafbad.com/recaffeinated/</ExportURL>
+   <ExportTemplate > Macintosh HD:Users:lorchard:devel:trunk:recaffeinated:templates:default.html</ExportTemplate>
    <ExportHTMLCreator > 9</ExportHTMLCreator>
    <ExportHTMLExtension > 0</ExportHTMLExtension>
    <HTMLParagraphStyle > 1</HTMLParagraphStyle>
@@ -2102,7 +2102,7 @@ I&apos;m wondering what sort of additional navigation I might add in, and whethe
    <RegUserName > Leslie Orchard</RegUserName>
    <RegUserOrg > </RegUserOrg>
    <FindCaseSensitive > 1</FindCaseSensitive>
-   <ExportFolder > Macintosh HD:Users:lorchard:devel:trunk:recaffinated:html:</ExportFolder>
+   <ExportFolder > Macintosh HD:Users:lorchard:devel:trunk:recaffeinated:html:</ExportFolder>
    <ReadOnly > 0</ReadOnly>
    <InfoWindowHeight > 700</InfoWindowHeight>
    <InfoWindowWidth > 900</InfoWindowWidth>
