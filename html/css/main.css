@@ -11,7 +11,7 @@ body {
 }
 #doc {
     position: relative; 
-    min-width: 610px; width:610px; margin: 0 auto 0 100px; 
+    min-width: 600px; width:600px; margin: 0 auto 0 100px; 
 }
 
 #hd { 
@@ -119,7 +119,7 @@ form .buttons .first { margin-left: 17ex; }
     padding: 0.25em 0 0.5em 0;
 }
 .skin-dev2 .hfeed .hentry {
-    margin: 20px 30px 15px 0;
+    margin: 15px 30px 25px 0px;
     padding: 10px 25px 10px 45px;
     background: #e4e0e4 url(../img/developpers-icons/Write%20Document.png) no-repeat scroll 5px 5px;
     position: relative;
@@ -136,12 +136,16 @@ form .buttons .first { margin-left: 17ex; }
     white-space: nowrap;
 }
 .skin-dev2 .comments a {
-    color: #ccc; 
+    color: #666; 
     border: none; 
     font-size: 92%;
 }
 .skin-dev2 .comments a:hover.commentlink .count {
+    color: #ddd; 
     background-color: #888;
+}
+.skin-dev2 .entry-single {
+    margin-top: 25px;
 }
 .skin-dev2 .hfeed .hentry .permalink .entry-date {
     display: none;
@@ -156,8 +160,11 @@ form .buttons .first { margin-left: 17ex; }
 .skin-dev2 .hfeed .hentry .entry-title {
     font-size: 144%;
 }
-.skin-dev2 .hfeed .hentry .entry-content {
+.skin-dev2 .entry-single .entry-essay .entry-content p {
     font-size: 110%;
+}
+.skin-dev2 .hfeed .hentry .entry-content {
+    font-size: 100%;
 }
 .skin-dev2 .hfeed .hentry .entry-content p {
     margin-right: 15px;
@@ -231,7 +238,6 @@ form .buttons .first { margin-left: 17ex; }
 }
 .skin-dev2 .hfeed .entry-quote .entry-content p {
     font-style: italic;
-    font-size: 92%;
     margin: 0 0 1em 0;
 }
 .skin-dev2 .hfeed .entry-quote h3 {
@@ -252,7 +258,6 @@ form .buttons .first { margin-left: 17ex; }
 }
 .skin-dev2 .hfeed .entry-bookmark .entry-content p {
     font-style: italic;
-    font-size: 92%;
     margin: 0.5em 0 0.5em 0;
 }
 .skin-dev2 .hfeed .entry-code {
@@ -283,7 +288,9 @@ form .buttons .first { margin-left: 17ex; }
     display: none;
 }
 .skin-dev2 .hfeed .entry-aside { 
-    background: none; padding: 0 25px 0 35px; margin: 5px 0 5px 0;
+    background: none; 
+    padding: 0pt 15px 0pt 5px;
+    margin: 5px 0 5px 0;
     border-top: none; border-bottom: none;
 }
 .skin-dev2 .hfeed .entry-aside h3.entry-title {
@@ -314,6 +321,7 @@ a.entry-date, a:visited.entry-date {
 }
 .date .date-header {
     padding: 15px 25px 10px 35px;
+    margin-left: -20px;
     line-height: 40px;
     background: transparent url(../img/developpers-icons/History.png) no-repeat scroll 0px 18px;
     /*
