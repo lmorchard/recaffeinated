@@ -1,7 +1,12 @@
-  <entry>
-    <title>^title^</title>
-    <link href="^host^^path^"/>
-    <id>^host^^path^</id>
-    <updated>^lastModified(this,=)^</updated>
-    <summary type="html"><![CDATA[^text^]]></summary>
-  </entry>
+      <entry>
+        <title>[^get(Prototype)^] ^title^</title>
+        ^if(^get(HasOwnPage)^)^
+        <id>^host^^path^</id>
+        <link href="^host^^path^" type="text/html" />
+        ^else^
+        <id>^host^^path(parent)^#entry-^getFor(this,id)^</id>
+        <link href="^host^^path(parent)^#entry-^getFor(this,id)^" type="text/html" rel="alternate" />
+        ^endif^
+        <updated>^lastModified(this,=)^</updated>
+        <summary type="html">^if(^text^)^<![CDATA[^text^]]>^endif^</summary>
+      </entry>

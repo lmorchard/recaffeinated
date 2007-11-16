@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>^getFor(Settings,SiteTitle)^</title>
+    <subtitle>^getFor(Settings,SiteSubtitle)^</subtitle>
     <link rel="self" href="^host^^path^"/>
-    <updated>^lastModified(Archives,*)^</updated>
+    <updated>^lastModified(Archives,=)^</updated>
     <author>
         <name>^getFor(Settings,AuthorName)^</name>
         <email>^getFor(Settings,AuthorEmail)^</email>

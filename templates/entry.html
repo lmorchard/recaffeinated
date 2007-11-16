@@ -62,7 +62,7 @@
                 <a href="^getFor(current,BaseUrl)^^path^" class="permalink" title="^title^" rel="bookmark">^title^</a>
             </h3>
             <h4 class="entry-date">
-                <abbr class="published" title="^created(this,=)^">^created(this,y M D)^ @ ^created(this,H:mmp)^</abbr>
+                <a href="^getFor(current,BaseUrl)^^path(parent)^#entry-^getFor(this,id)^"><abbr class="published" title="^created(this,=)^">^created(this,y M D)^ @ ^created(this,H:mmp)^</abbr></a>
             </h4>
             ^if(^not(^equal(^get(id), ^getFor(current,id))))^
                 <div class="entry-content">

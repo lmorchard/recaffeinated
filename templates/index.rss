@@ -8,8 +8,8 @@
         <language>en-us</language>
         <generator>Eastgate Tinderbox (v^Version^), http://www.eastgate.com/Tinderbox/</generator>
         <lastBuildDate>^lastModified(Archives,*)^</lastBuildDate>
-        <managingEditor>^getFor(Settings,AuthorEmail)^</managingEditor>
-        <webMaster>^getFor(Settings,AuthorEmail)^</webMaster>
+        <managingEditor>^getFor(Settings,AuthorEmail)^ (^getFor(Settings,AuthorName)^)</managingEditor>
+        <webMaster>^getFor(Settings,AuthorEmail)^ (^getFor(Settings,AuthorName)^)</webMaster>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         ^justchildren(index-item.rss)
     </channel>
