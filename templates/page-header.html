@@ -3,7 +3,7 @@
     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
     <head>
-        <title>^getFor(Settings,SiteTitle)^^if(^getFor(current,IsHome))^^else^^if(^getFor(current,IsMonth))^ :: ^created(current,y MM)^^else^^if(^getFor(current,IsDay))^ :: ^created(current,y MM D)^^else^ :: ^title(current)^^endif^^endif^^endif^</title>
+        <title>^if(^getFor(current,IsHome))^^else^^if(^getFor(current,IsMonth))^^created(current,y MM)^ :: ^else^^if(^getFor(current,IsDay))^^created(current,y MM D)^ :: ^else^^title(current)^ :: ^endif^^endif^^endif^^getFor(Settings,SiteTitle)^</title>
         <meta name="description" content="^getFor(Settings,SiteSubtitle)^" /> 
         <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
 

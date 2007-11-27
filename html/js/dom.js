@@ -17,7 +17,7 @@ Decafbad.DOM = (function() {
             "LABEL", "TEXTAREA", "FORM", "STRONG", "SELECT", "OPTION",
             "OPTGROUP", "LEGEND", "FIELDSET", "P", "UL", "OL", "LI", "DL",
             "DT", "DD", "TD", "TR", "THEAD", "TBODY", "TFOOT", "TABLE", "TH",
-            "INPUT", "SPAN", "A", "DIV", "IMG"
+            "INPUT", "SPAN", "A", "DIV", "IMG", "EMBED", "PARAM"
         ],
 
         /**

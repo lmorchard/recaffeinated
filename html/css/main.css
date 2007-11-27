@@ -132,6 +132,15 @@ form .buttons .first { margin-left: 17ex; }
 .skin-dev2 .hfeed .hentry a:hover.permalink-small  {
     background-color: #888;
 }
+.skin-dev2 .hfeed .hentry ul {
+}
+.skin-dev2 .hfeed .hentry ul li {
+    list-style-type: square;
+    margin-left: 2em;
+    padding-left: 1em;
+    padding-bottom: 0.5em;
+    text-indent: -1em;
+}
 .skin-dev2 .comments {
     white-space: nowrap;
 }
@@ -259,6 +268,9 @@ form .buttons .first { margin-left: 17ex; }
 .skin-dev2 .hfeed .entry-bookmark .entry-content p {
     font-style: italic;
     margin: 0.5em 0 0.5em 0;
+}
+.skin-dev2 .hfeed .entry-bookmark .entry-content ul li {
+    font-style: italic;
 }
 .skin-dev2 .hfeed .entry-code {
     background-image: url(../img/developpers-icons/Terminal.png);

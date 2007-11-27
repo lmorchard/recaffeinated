@@ -1,4 +1,6 @@
+00-project.txt
 html/js/main.js
+html/js/dom.js
 html/css/main.css
 templates/archives-day.html
 templates/archives-month.html
