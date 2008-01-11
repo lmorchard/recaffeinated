@@ -162,17 +162,22 @@ form .buttons .first { margin-left: 17ex; }
 .skin-dev2 .hfeed .entry-essay .entry-date {
     display: none;
 }
+.skin-dev2 .entry-single .entry-essay h3.entry-title {
+    font-size: 144%;
+}
 .skin-dev2 .entry-single .entry-essay h4.entry-date {
     display: block;
     padding-bottom: 0.5em;
-}
-.skin-dev2 .hfeed .hentry .entry-title {
-    font-size: 144%;
+    font-size: 115%;
 }
 .skin-dev2 .entry-single .entry-essay .entry-content p {
     font-size: 110%;
 }
+.skin-dev2 .hfeed .hentry .entry-title {
+    font-size: 122%;
+}
 .skin-dev2 .hfeed .hentry .entry-content {
+    padding-top: 0.5em;
     font-size: 100%;
 }
 .skin-dev2 .hfeed .hentry .entry-content p {
@@ -183,8 +188,7 @@ form .buttons .first { margin-left: 17ex; }
     background-color: #f3f3e3;
 }
 .skin-dev2 .hfeed .entry-essay .entry-title {
-    font-size: 144%;
-    padding-bottom: 0.75em;
+    /*font-size: 144%;*/
 }
 .skin-dev2 .hfeed .entry-essay .entry-content {
     color: #111;
@@ -363,13 +367,20 @@ div.page ol li {
 }
 .archives .archive-years {
 }
+.archives .archive-months {
+    padding-top: 0px;   
+}
+.archives .archive-month {
+    clear: both;
+    padding-top: 1em;
+}
 .archives .archive-day {
     float: left;
     text-align: center;
-    padding: 0 2em 0 0;
+    padding: 0 1em 0 0;
 }
 .archives .archive-day h5 {
-    font-size: 175%;
+    font-size: 125%;
 }
 
 .debug #logger { width: 90%; margin-top: 2em; display: none }

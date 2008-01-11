@@ -3,7 +3,7 @@
     <channel>
         <title>^getFor(Settings,SiteTitle)^</title>
         <description>^getFor(Settings,SiteSubtitle)^</description>
-        <link>^host^^path^</link>
+        <link>^getFor(Settings,SiteUrl)^</link>
         <copyright>^getFor(Settings,SiteCopyright)^</copyright>
         <language>en-us</language>
         <generator>Eastgate Tinderbox (v^Version^), http://www.eastgate.com/Tinderbox/</generator>
